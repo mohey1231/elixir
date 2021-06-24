@@ -22,6 +22,16 @@
   }
 }
 
+@media only screen and (max-height: 900px){
+  .zoom-image-head__bg2{
+    left: 13%;
+    width: 76%;
+  }
+  .zoom-image-head__content{
+    margin-top: 15%;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .article-listing-item__content {
     padding: 40px;
