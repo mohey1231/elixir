@@ -293,7 +293,7 @@ custom bootstrap styles
 */
 
 a:hover {
-  color: currentColor;
+  color: #9bc7db;
   text-decoration: none;
 }
 
@@ -1454,7 +1454,7 @@ dropdown
 
 .dropdown__link_active,
 .dropdown__link:hover {
-  color: #8e8e8e;
+  color: #9bc7db;
 }
 
 /*
@@ -7678,7 +7678,7 @@ header-fixed
 }
 
 .top-menu__menu-link:hover {
-  color: #8e8e8e;
+  color: #9bc7db;
 }
 
 .top-menu__menu-link:hover:after {
@@ -7686,7 +7686,7 @@ header-fixed
 }
 
 .top-menu__menu-link_active {
-  color: #8e8e8e;
+  color: #9bc7db;
 }
 
 .top-menu__menu-link_active:after {
@@ -8549,13 +8549,13 @@ zoom-slider
   right: 60px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
   .header-fixed {
     width: 116%;
     font-size: 90%;
   }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1290px) {
   .header-fixed {
     display: none;
   }
