@@ -1426,6 +1426,34 @@ dropdown
   visibility: visible;
 }
 
+/****************** ******************/
+
+
+.dropdown__menu2 {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 37px 0px 40px 45px;
+  left: -45px;
+  top: 66px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  transition-delay: 0.3s;
+  box-shadow: 0 0 65px rgba(0,0,0,0.07);
+}
+
+.dropdown__item:hover .dropdown__menu2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/****************** ******************/
+
+
+
 .dropdown__menu_side_right {
   left: auto;
   right: -30px;
