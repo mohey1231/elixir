@@ -26,6 +26,7 @@
   <link href="favicons/site.webmanifest" rel="manifest">
   <link color="#5bbad5" href="favicons/safari-pinned-tab.svg" rel="mask-icon">
   <link href="favicons/favicon-32x32.png" rel="shortcut icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta content="#da532c" name="msapplication-TileColor">
   <meta content="favicons/browserconfig.xml" name="msapplication-config">
   <meta content="#ffffff" name="theme-color">
@@ -34,7 +35,7 @@
 <style>
   .mem{
     animation-name: m;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
   }
 
@@ -48,10 +49,22 @@
 
   body div{
     animation-name: m2;
-    animation-duration: 2s;
+    animation-duration: 3s;
   }
 
   @keyframes m2{
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  .header{
+    animation-name: m3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes m3{
     0%{opacity: 0;}
     80%{opacity: 0;}
     100%{opacity: 1;}
@@ -63,209 +76,480 @@
 <!--style="background: #ffffffa6; padding-bottom: 16px;"-->
 
 <body class="page">
-<div class="page__inner animsition" style="position: sticky;">
-  <header class="header  header_fixed header_offset" style="background: #ffffffa6; padding-bottom: 16px;" >
-    <div class="header__container">
-      <div class="header__wrapper container-fluid" >
-        <div class="header__inner">
-          <img src="img/client-1-dark.png" style="width: 230px;" alt="">
-          <button class="header__menu-button" type="button">
-            <span class="header__menu-button-inner"></span>
-          </button>
+  <div class="page__inner animsition" style="position: sticky;">
+    <header class="header  header_fixed header_offset" style="background: #000000c4; padding-bottom: 16px; font-size: 12px;" >
+      <div class="header__container">
+        <div class="header__wrapper container-fluid" >
+          <div class="header__inner">
+            <img src="img/client-1-light.gif" style="width: 230px; margin-left: -6px;" alt="">
+            <button class="header__menu-button" type="button">
+              <span class="header__menu-button-inner"></span>
+            </button>
+          </div>
         </div>
-      </div>
-      <div class="header-fixed">
-        <div class="header-fixed__bottom container" style="font-family: poppins; letter-spacing: -.5px; margin-top: -50px;">
-          <ul class="top-menu header-fixed__menu">
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px; ">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="">Home</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">ABOUT US</a>
-                <div class="dropdown__menu" style="margin-top: -16px;">
-                  <div class="dropdown__column">
-                    <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;"> 
-                      <a class="dropdown__link" href="#">Our story</a>
-                    </div>
-                    <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                      <a class="dropdown__link" href="#">Our team</a>
-                    </div>
-                    <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                      <a class="dropdown__link" href="#">Our culture</a>
-                        <div class="dropdown__menu2" style="margin-top: 16px; margin-left: 231px; padding-bottom: 16px; padding-top: 16px;">
-                        <div class="dropdown__column">
-                          <div class="dropdown__item" > 
-                            <a class="dropdown__link" href="#">Our CEO MESSAGE</a>
+        <div class="header-fixed">
+          <div class="header-fixed__bottom container" style="font-family: poppins; letter-spacing: -.5px; margin-top: -50px;">
+            <ul class="top-menu header-fixed__menu">
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px; ">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="">Home</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">ABOUT US</a>
+                  <div class="dropdown__menu" style="margin-top: -16px;">
+                    <div class="dropdown__column">
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;"> 
+                        <a class="dropdown__link" href="#">Our story</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="#">Our team</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="#">Our culture</a>
+                          <div class="dropdown__menu2" style="margin-top: 16px; margin-left: 247px; padding-bottom: 16px; padding-top: 16px;">
+                          <div class="dropdown__column">
+                            <div class="dropdown__item" > 
+                              <a class="dropdown__link" href="#">Our CEO MESSAGE</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                      <a class="dropdown__link" href="#">Our Values</a>
-                    </div>
-                    <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                      <a class="dropdown__link" href="#">Our Vision</a>
-                    </div>
-                    <div class="dropdown__item" >
-                      <a class="dropdown__link" href="#">Our Mission</a>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="#">Our Values</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="#">Our Vision</a>
+                      </div>
+                      <div class="dropdown__item" >
+                        <a class="dropdown__link" href="#">Our Mission</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">OUR PRODUCTS</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">OUR FUTURE STEPS</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">RESEARCH</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">NEWS</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">CAREERS</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">ACTIVITIES</a>
-              </div>
-            </li>
-            <li class="top-menu__menu-item">
-              <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">CONTACT US</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="header__overlay"></div>
-    <div class="menu-panel header__menu">
-      <div class="menu-panel__inner">
-        <button class="header__menu-button header__menu-button_fixed" type="button">
-          <span class="header__menu-button-inner"></span>
-        </button>
-        <div class="menu-panel__menu">
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link menu-panel__menu-link menu-panel__menu-link_active" data-toggle="collapse" href=" #">Home</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href=" #">ABOUT US</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR PRODUCTS</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR FUTURE STEPS</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">RESEARCH</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">NEWS</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CAREERS</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">ACTIVITIES</a>
-          </div>
-          <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CONTACT US</a>
-          </div>
-        </div>
-        <div class="menu-panel__footer">
-          <div class="socials menu-panel__socials">
-            <a class="socials__social icofont-twitter" href="#">
-              <div class="visually-hidden">twitter</div>
-            </a>
-            <a class="socials__social icofont-facebook" href="#">
-              <div class="visually-hidden">facebook</div>
-            </a>
-            <a class="socials__social icofont-google-plus" href="#">
-              <div class="visually-hidden">google plus</div>
-            </a>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">OUR PRODUCTS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">OUR FUTURE STEPS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">RESEARCH</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">NEWS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">CAREERS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">ACTIVITIES</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">CONTACT US</a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <div class="zoom-image-head">
-      <div class="zoom-image-head__body">
-        <div class="zoom-image-head__bg">
-          <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg3.jpg')"></div>
-        </div>
-        <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg3.png" style="margin-left: 70px;"/>
-        <div class="zoom-image-head__content container">
-          <div class="zoom-image-head__subtitle">Elixir Pharma</div>
-          <div class="zoom-image-head__title">Enhancing
-            <br/>
-            Lives
-          </div>
-          <div class="zoom-image-head__text" style="line-height: 23px;">We will always favor quality
-            <br/>
-            over quantity.
-          </div>
-          <div class="zoom-image-head__icon icofont-dotted-down"></div>
-        </div>
-      </div>
-    </div>
-    <div class="zoom-counter">
-      <div class="container">
-        <div class="zoom-counter__inner">
-          <div class="zoom-counter__card" style="background-image: url('img/zoom-count-bg.jpg')">
-          </div>
-          <div class="zoom-counter__info">
-            <div class="zoom-counter__subtitle">Elixir Pharma</div>
-            <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px;">We are passionate </br>about giving you<span style="color: #9bc7db;"></br>the care that you deserve.</span>
+      <div class="header__overlay"></div>
+      <div class="menu-panel header__menu">
+        <div class="menu-panel__inner">
+          <button class="header__menu-button header__menu-button_fixed" type="button">
+            <span class="header__menu-button-inner"></span>
+          </button>
+          <div class="menu-panel__menu">
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link menu-panel__menu-link menu-panel__menu-link_active" data-toggle="collapse" href=" #">Home</a>
             </div>
-            <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300;">
-              <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment.</p>
-              <p>Through communication, we aim to build a platform that cares for people on both physical and mental levels...</p>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href=" #">ABOUT US</a>
             </div>
-            <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #9bc7db;">Discover</a>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR PRODUCTS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR FUTURE STEPS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">RESEARCH</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">NEWS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CAREERS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">ACTIVITIES</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CONTACT US</a>
+            </div>
+          </div>
+          <div class="menu-panel__footer">
+            <div class="socials menu-panel__socials">
+              <a class="socials__social icofont-twitter" href="#">
+                <div class="visually-hidden">twitter</div>
+              </a>
+              <a class="socials__social icofont-facebook" href="#">
+                <div class="visually-hidden">facebook</div>
+              </a>
+              <a class="socials__social icofont-google-plus" href="#">
+                <div class="visually-hidden">google plus</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</div>
-<img class="mem" src="img/start.gif" alt="" style="position: absolute; top: 34%; right: 35%; width: 30%; ">
-<!--JS-->
-<script src="assets/js/polyfill.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.viewport.min.js"></script>
-<script src="assets/js/jQuerySimpleCounter.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/isotope.pkgd.min.js"></script>
-<script src="assets/js/animsition.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/rellax.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/smoothscroll.js"></script>
-<script src="assets/js/svg4everybody.legacy.min.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/TimelineLite.min.js"></script>
-<script src="assets/js/typed.min.js"></script>
-<script src="assets/js/vivus.min.js"></script>
-<!--Theme JS-->
-<script src="assets/js/theme.js"></script>
+    </header>
+
+
+    <main>
+      <main>
+        <div class="zoom-image-head">
+          <div class="zoom-image-head__body">
+            <div class="zoom-image-head__bg">
+              <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg3.jpg')"></div>
+            </div>
+            <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg3.png" style="margin-left: 70px;"/>
+            <div class="zoom-image-head__content container">
+              <div class="zoom-image-head__subtitle">Elixir Pharma</div>
+              <div class="zoom-image-head__title">Enhancing
+                <br/>
+                Lives
+              </div>
+              <div class="zoom-image-head__text" style="line-height: 23px;">We will always favor quality
+                <br/>
+                over quantity.
+              </div>
+              <div class="zoom-image-head__icon icofont-dotted-down"></div>
+            </div>
+          </div>
+        </div>
+
+
+      <!----------------------------------------------->
+
+
+
+
+
+      <main>
+        <div class="main-slide main-slide main-slide_size_large">
+          <div class="parallax-image main-slide__image">
+            <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background:#6b6b6c">
+              <iframe data-aos="fade-up" width="1420" height="545" src="https://www.youtube.com/embed/ukcK4xuweAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 12% 9% 9% 9%; width: 85%; border: 20px solid #e1e3e5;"></iframe>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+    <!-- "Üneeded"
+
+      <div class="main-slide__slide-inner">
+        <div class="main-slide__subtitle-wrapper">
+          <div class="main-slide__subtitle">Architecture</div>
+        </div>
+        <div class="main-slide__title-wrapper">
+          <div class="main-slide__title">Art Museum,
+            <br>
+            Poland
+          </div>
+          <div class="main-slide__label-wrapper">
+            <div class="main-slide__label">completed</div>
+            <div class="main-slide__label-value">2019</div>
+          </div>
+        </div>
+        <div class="main-slide__text-wrapper">
+          <div class="main-slide__text">For each project we establish relationships with partners who we know will help us create added value for your project</div>
+        </div>
+      </div>
+
+      --->
+
+      
+      <!----------------------------------------------->
+
+      <style>
+        .small-1{
+          font-size: 100px; font-family: Playfair display; letter-spacing: -5px; color: #2b3b4e;
+
+        }
+
+        .small-2{
+          font-size: 20px; font-family: poppins; line-height: 30px; color: #2b3b4e;
+        }
+
+        .small-3{
+          font-size: 24px; font-family: poppins; color: #2b3b4e; font-weight: 300;
+        }
+
+        @media only screen and (max-width: 800px){
+          .small-1{
+            font-size: 50px;
+            margin-top: 15%;
+          }
+        }
+          
+          
+        }
+      </style>
+
+
+
+
+
+
+
+      <main>
+        <div class="main-slide main-slide main-slide_size_large">
+          <div class="parallax-image main-slide__image">
+            <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
+              <div style="text-align: center; padding: 24%; ">
+                <h1 class="small-1" data-aos="fade-up">Who are we ?</h1>
+                <p class="small-2" data-aos="fade-up" >Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the
+                2018 provision of varied commercial and scarce medication. Founded in
+                </p>
+                <a data-aos="fade-up" class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="" href="">DISCOVER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+
+      
+
+
+      <!----------------------------------------------->
+
+
+      <style>
+        .secy{
+          flex: 1;
+          margin-top: 30%;
+          color: White;
+        }
+
+        .secy-1{
+          flex: 1;
+          margin-top: -7%;
+          margin-bottom: -34px;
+          text-align: justify;
+          color: rgb(204, 204, 204);
+          font-family: poppins;
+        }
+
+        .secy-2{
+          width: 12%;
+          margin: 4% 61% 0;
+        }
+
+
+        @media only screen and (max-width: 600px){
+          .secy-2{
+            margin: 20% 61% 0;
+          }
+
+          .secy{
+            font-size: 35px;
+
+          }
+        }
+
+      </style>
+
+      <main style="background: #2d2d2e;" >
+        <div class="single-post">
+          <div class="parallax-image single-post__head">
+            <div  class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/news-single-post-head-image.jpg');border-bottom: 30px solid lightgrey;">
+              <div style="display: flex; width: 47%;margin: auto;">
+                <h1 class="secy" data-aos="fade-up">At Elixir,<br>
+                  we always favor quality<br>
+                  over quantity.</h1>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; width: 47%;margin: auto;" data-aos="fade-up">
+            <p class="secy-1" data-aos="fade-up">It started with the dream of a young man, who enrooted his love of trade since childhood. The dream grow bigger with a project in Madcascar
+              (TRUST PHARMA) which produced trusted connections, a deeper understanding of the country and the African needs. Further connections with
+              Egyptian companies allowed Hany to import medication into Madagascar, and contribute to the improvement of the country’s health Temporary
+              return to the multinational world and another quick climb up the ladder expanded Hany’s network, and Soon this passion has turned this to be Elixir
+              pharma. <br> <br>
+                <a data-aos="fade-up" class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="color: white;" href="">DISCOVER</a>        
+            </p>
+          </div>
+          <img class="secy-2" src="img/x.png" alt="">
+        </div>
+      </main>
+
+
+
+
+
+    <!----------------------------------------------->
+
+      <style>
+        .icony{
+          display: flex;
+          margin-top: -200px;
+          position: absolute;
+          margin-left: 35px;
+        }
+
+        .icony-1{
+          flex: 0.28;
+          padding: 1%;
+        }
+
+        .h1-sec{
+          margin:5px 0 5px 0 ;
+          font-size: 25px;
+        }
+
+        .p1-sec{
+          margin:5px 0 5px 0 ;
+          width: 66%;
+        }
+
+        .secy-3{
+            width: 12%;
+            margin: 4% 61% 0;
+        }
+
+        @media only screen and (max-width: 767px){
+          .icony{
+            margin-top: -165px;
+          }
+          .h1-sec{
+            font-size: 20px;
+          }
+          .p1-sec{
+            font-size: 10px;
+          }
+        }
+
+        @media only screen and (min-width: 1990px) {
+          .icony{
+            margin-right: 21%;
+          }
+          
+        }
+
+        @media only screen and (max-width: 600px){
+            .secy-3{
+              margin: 20% 61% 0;
+            }
+
+          }
+
+
+
+
+      </style>
+
+      <main >
+        <div class="">
+          <div class="parallax-image single-post__head">
+            <div class="parallax-image__image" data-rellax-speed="-3" style="background-image: url('img/news-single-post-head-image.jpg');"></div>
+          </div>
+          <div class="container" style="margin-bottom: 250px;">
+            <div class="icony">
+              <div class="icony-1">
+                <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec">OUR VISION</h1>
+                <p class="p1-sec">We are going to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives</p>
+              </div>
+              <div class="icony-1">
+                <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec">OUR VISION</h1>
+                <p class="p1-sec">We are going to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives</p>
+              </div>
+              <div class="icony-1">
+                <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec">OUR VISION</h1>
+                <p class="p1-sec">We are going to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives</p>
+              </div>
+            </div>
+            <img class="secy-3" src="img/x.png" alt="">
+        </div>
+      </main>
+    </main>
+
+
+
+
+
+  <!----------------------------------------------->
+    <!----------------------------------------------->
+
+
+
+
+
+
+      <div class="zoom-counter">
+        <div class="container">
+          <div class="zoom-counter__inner">
+            <div class="zoom-counter__card" style="background-image: url('img/zoom-count-bg.jpg')">
+            </div>
+            <div class="zoom-counter__info">
+              <div class="zoom-counter__subtitle">Elixir Pharma</div>
+              <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px;">We are passionate </br>about giving you<span style="color: #9bc7db;"></br>the care that you deserve.</span>
+              </div>
+              <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300;">
+                <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment.</p>
+                <p>Through communication, we aim to build a platform that cares for people on both physical and mental levels...</p>
+              </div>
+              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #9bc7db;">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <img class="mem" src="img/start3.gif" alt="" style="position: absolute; top: 34%; right: 35%; width: 30%; ">
+  <!--JS-->
+  <script src="assets/js/polyfill.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.viewport.min.js"></script>
+  <script src="assets/js/jQuerySimpleCounter.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/animsition.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/rellax.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/svg4everybody.legacy.min.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/TimelineLite.min.js"></script>
+  <script src="assets/js/typed.min.js"></script>
+  <script src="assets/js/vivus.min.js"></script>
+  <!--Theme JS-->
+  <script src="assets/js/theme.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
