@@ -1782,7 +1782,7 @@ footer-default
 }
 
 .footer-default__head {
-  position: relative;
+  position: absolute;
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 37px;
   margin-bottom: 73px;
