@@ -3546,7 +3546,7 @@ header
   left: 0;
   top: 0;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: -8px;
 }
 
 .header__inner {
@@ -3560,7 +3560,7 @@ header
 .header__menu-button {
   position: absolute;
   right: -13px;
-  top: 50%;
+  top: 33%;
   margin-top: -25px;
   border: 0;
   width: 50px;
