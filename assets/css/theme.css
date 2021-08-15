@@ -293,7 +293,7 @@ custom bootstrap styles
 */
 
 a:hover {
-  color: #9bc7db;
+  color: #9d9d9d;
   text-decoration: none;
 }
 
@@ -1413,7 +1413,7 @@ dropdown
   display: flex;
   padding: 37px 0px 40px 45px;
   left: -45px;
-  top: 66px;
+  top: 80px;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
@@ -1461,7 +1461,7 @@ dropdown
 
 .dropdown__column {
   margin-right: 30px;
-  min-width: 125px;
+  min-width: 180px;
 }
 
 .dropdown__title {
@@ -1482,7 +1482,7 @@ dropdown
 
 .dropdown__link_active,
 .dropdown__link:hover {
-  color: #9bc7db;
+  color: #9d9d9d;
 }
 
 /*
@@ -3382,7 +3382,7 @@ header-fixed
   position: absolute;
   left: 0;
   width: 100%;
-  bottom: 32px;
+  bottom: 15px;
 }
 
 .header-fixed__menu {
@@ -7711,7 +7711,7 @@ header-fixed
 }
 
 .top-menu__menu-link:hover {
-  color: #9bc7db;
+  color: #9d9d9d;
 }
 
 .top-menu__menu-link:hover:after {
@@ -7719,7 +7719,7 @@ header-fixed
 }
 
 .top-menu__menu-link_active {
-  color: #9bc7db;
+  color: #9d9d9d;
 }
 
 .top-menu__menu-link_active:after {
