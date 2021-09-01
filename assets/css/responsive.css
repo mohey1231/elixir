@@ -22,12 +22,6 @@
   }
 }
 
-@media only screen and (max-width: 1416px) {
-  .top-menu {
-    margin-left: 5%;
-  }
-}
-
 @media only screen and (max-height: 900px){
   .zoom-image-head__bg2{
     left: 13%;
