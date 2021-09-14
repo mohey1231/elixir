@@ -4,6 +4,12 @@
     padding-left: 60px;
   }
 
+@media (max-width: 1470px) {
+  .container {
+    padding-right: 215px;
+    font-size: 10px;
+  }
+
   .container-fluid {
     padding-right: 60px;
     padding-left: 60px;

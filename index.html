@@ -129,8 +129,24 @@
     width: 122%;
   }
 
-</style>
+  .in-se{
+    margin-right: 35px;
+    margin-top: -26px;
+    padding: 4px 0px;
+    border-radius: 15px;
+    transition: .5s ease;
+    color: white;
+    font-family: poppins;
+  }
 
+  .in-se:hover{
+    padding: 4px 32px;
+    color: black;
+  }
+
+  
+
+</style>
 
 
   
@@ -144,8 +160,17 @@
         <div class="header__wrapper container-fluid" >
           <div class="header__inner">
             <img src="img/client-2-light.gif" style="width: 150px; margin-left: -6px; margin-top: -2%;" alt="">
-            <button class="header__menu-button" type="button">
-              <a class="search-0" href="search.html"> <img style="margin-right: 31px;" src="img/search-solid.svg" alt=""> </a>
+            
+            <a class="search-0" href="#"> 
+              <!--<img style="margin-right: 12px; width: 22px; float: right; margin-top: -8px;" src="img/search-solid.svg" di alt="">-->
+            </a>
+
+            <div class="" style="margin-top: -12px;">
+              <i class="fa fa-search icon" style="position: absolute; margin-left: 15px; margin-top: 4px; color: black;"></i>
+              <input class="in-se" style="" type="text"  >
+            </div>
+
+            <button class="header__menu-button" type="button" style="margin-top: -31px;">
               <span class="header__menu-button-inner"></span>
             </button>
           </div>
@@ -305,6 +330,27 @@
               <div class="zoom-image-head__title">Enhancing
                 <br/>
                 Lives
+              </div>
+              <div class="center2">
+                <div id="social">
+                  <ul>
+                    <li class="facebook">
+                      <button class="border"><i class="fa fa-facebook"></i></button>
+                    </li>
+                
+                    <li class="twitter">
+                      <button class="border"><i class="fa fa-twitter"></i></button>
+                    </li>
+                
+                    <li class="instagram">
+                      <button class="border"><i class="fa fa-instagram"></i></button>
+                    </li>
+                    
+                    <li class="dribbble">
+                      <button class="border"><i class="fa fa-dribbble"></i></button>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div class="zoom-image-head__text" style="line-height: 23px;">
                 <br/>
@@ -938,7 +984,11 @@
 
     <style>
 
+      
 
+
+      .center2{
+      }
 
       .center{
         float: right;
