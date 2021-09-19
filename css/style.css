@@ -1115,7 +1115,7 @@ support for no js
 }
 .title-fs-45 {
 	color:#4b4e53;
-	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-family: 'Playfair Display';
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 300;
@@ -1164,7 +1164,7 @@ support for no js
   font-size: 45px;
 }
 .fes4-title-cont h3, .title-18 {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display';
   color: #4b4e53;
   font-weight: 300;
   font-size: 18px;
@@ -1174,7 +1174,7 @@ support for no js
 .section-title {
   margin:0;
   padding:22px 25px 24px 25px;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display';
 	font-weight:300;
 	font-size:30px;
 	line-height:36px;
@@ -1946,7 +1946,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .port-title-cont h3 {
   margin:0;
-	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+	font-family: 'Poppins';
   font-size:16px;
   line-height:24px;
   font-weight:600;
@@ -2048,15 +2048,18 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 =====================================================*/
 .port-detail {
   font-size:12px;
+  font-family: 'Poppins';
   
 }
 .port-detail p  {
   margin-bottom:5px;
+  font-family: 'Poppins';
 }
 .port-detail p strong {
   width: 100px;
   display: inline-block;
   letter-spacing:1px;
+  font-family: 'Poppins';
 }
 
 /* #CLIENTS 1 #NEW
@@ -2214,7 +2217,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   color: #101010;
 }
 .member h3 {
-  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+  font-family: 'Playfair Display';
   font-size: 16px;
   line-height:24px;
   font-weight: 700;
@@ -2842,6 +2845,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   text-transform:uppercase;
 }
 .page-sub-title {
+  font-family: 'Poppins';
   margin-bottom:15px;
   letter-spacing: 3px;
   font-size: 12px;
@@ -4694,6 +4698,7 @@ blockquote.custom-blockquote:before {
   font-size:18px;
   text-transform:uppercase;
   font-weight:600;
+  font-family: 'Poppins';
 }
 .blog-page-title small{
   font-size:12px;
@@ -5157,7 +5162,7 @@ ul#portfolio {
 ===============================================================*/
 /***** #HEADINGS *****/
 h1, h2, h3{
-	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-family: 'Playfair Display';
 	font-weight:normal;
 	color: #4b4e53;
 	margin: 0;
@@ -6152,7 +6157,7 @@ a:hover, a:focus {
 .mb-25 {margin-bottom:25px !important;}
 .mb-30 {margin-bottom:30px !important;}
 .mb-35 {margin-bottom:35px !important;}
-.mb-50 {margin-bottom:26px }
+.mb-50 {margin-bottom:26px;font-family: 'Poppins'; }
 .mb-60 {margin-bottom:60px !important;}
 .mb-70 {margin-bottom:70px !important;}
 .mb-75 {margin-bottom:75px;}
@@ -10579,14 +10584,14 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 .fes2-title-45 {
 	color:#404347;
-	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	font-family: 'Poppins';
 	font-size: 45px;
 	line-height: 50px;
 	font-weight: 300;
 }
 .fes2-text-cont{
 	margin-top:30px;
-  font-family: 'Lato',Arial,Helvetica,sans-serif;
+  font-family: 'Poppins';
 	font-size: 16px;
 	line-height: 25px;
   font-weight: 300;

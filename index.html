@@ -8,7 +8,7 @@
   <meta content="RASANS" name="author">
   <title>Elixir Pharma</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!--CSS-->
   <link href="assets/css/icofont.min.css" rel="stylesheet">
   <link href="assets/css/linearicons.min.css" rel="stylesheet">
@@ -132,7 +132,7 @@
   .in-se{
     margin-right: 35px;
     margin-top: -26px;
-    padding: 4px 0px;
+    padding: 4px 28px;
     border-radius: 15px;
     transition: .5s ease;
     color: white;
@@ -140,7 +140,7 @@
   }
 
   .in-se:hover{
-    padding: 4px 32px;
+    padding: 4px 40px;
     color: black;
   }
 
@@ -173,6 +173,26 @@
             <button class="header__menu-button" type="button" style="margin-top: -31px;">
               <span class="header__menu-button-inner"></span>
             </button>
+          </div>
+          <div id="social" style=" float: right; margin-top: -11px; margin-right: 22px; margin-bottom: -17px; ">
+            <ul>
+              <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
+              <li class="facebook" style="width: 20px;">
+                <a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i>
+              </li>
+          
+              <li class="twitter" style="width: 20px;">
+                <a href="https://www.youtube.com/c/ElixirPharma-eg" target="_blank"><i class="fa fa-youtube"></i>
+              </li>
+          
+              <li class="instagram" style="width: 20px;">
+                <a href="https://www.instagram.com/elixirpharmaeg/" target="_blank"><i class="fa fa-instagram"></i>
+              </li>
+              
+              <li class="dribbble" style="width: 20px;">
+                <a href="https://www.linkedin.com/company/elixirpharmaeg" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="header-fixed">
@@ -223,7 +243,7 @@
               <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
                 <div class="dropdown">
                   <a class="dropdown__trigger top-menu__menu-link" href="main-portfolio.html">OUR PORTFOLIO</a>
-                  <div class="dropdown__menu" style="margin-top: -16px; font-size: 13px;">
+                  <div class="dropdown__menu" style="margin-top: 0px; font-size: 13px;">
                     <div class="dropdown__column2">
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;"> 
                         <a class="dropdown__link" href="main-our-philosophy.html">Our Philosophy of service</a>
@@ -331,27 +351,30 @@
                 <br/>
                 Lives
               </div>
+
+              <!--
               <div class="center2">
                 <div id="social">
                   <ul>
                     <li class="facebook">
-                      <button class="border"><i class="fa fa-facebook"></i></button>
+                      <button class="border"><a href="https://www.facebook.com/elixirpharma.eg"><i class="fa fa-facebook"></i></a></button>
                     </li>
                 
                     <li class="twitter">
-                      <button class="border"><i class="fa fa-twitter"></i></button>
+                      <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg"><i class="fa fa-youtube"></i></a></button>
                     </li>
                 
                     <li class="instagram">
-                      <button class="border"><i class="fa fa-instagram"></i></button>
+                      <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/"><i class="fa fa-instagram"></i></a></button>
                     </li>
                     
                     <li class="dribbble">
-                      <button class="border"><i class="fa fa-dribbble"></i></button>
+                      <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg"><i class="fa fa-linkedin"></i></a></button>
                     </li>
                   </ul>
                 </div>
               </div>
+              -->
               <div class="zoom-image-head__text" style="line-height: 23px;">
                 <br/>
 
@@ -361,7 +384,7 @@
           </div>
         </div>
 
-
+      </main>
       <!----------------------------------------------->
 
 
@@ -374,14 +397,79 @@
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background:#6b6b6c">
              <!-- <iframe data-aos="fade-up" width="1420" height="545" src="img/video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 12% 9% 9% 9%; width: 85%; border: 20px solid #e1e3e5;"></iframe>
               -->
-              <video width="1000" controls="controls" preload="metadata" style="display: block; margin: auto; padding-top: 13%;">
-                <source src="img/video.mp4" type="video/mp4">
+              <div style="padding-top: 130px;"></div>
+              <video id="elixir_video" width="1000" controls="controls" preload="metadata"  autoplay style="display: block; margin: auto; width: 70%;" >
+                <source src="img/video.mp4?autoplay=1" type="video/mp4">
               </video>
+              
               
             </div>
           </div>
         </div>
       </main>
+
+     
+
+
+      <script>
+        (function($) {
+
+        $(document).ready(function() { 
+
+
+          var elementTop, elementBottom, viewportTop, viewportBottom;
+
+          function isScrolledIntoView(elem) {
+            elementTop = $(elem).offset().top;
+            elementBottom = elementTop + $(elem).outerHeight();
+            viewportTop = $(window).scrollTop();
+            viewportBottom = viewportTop + $(window).height();
+            return (elementBottom > viewportTop && elementTop < viewportBottom);
+          }
+          
+          if($('video').length){
+
+            var loadVideo;
+
+            $('video').each(function(){
+              $(this).attr('webkit-playsinline', '');
+              $(this).attr('playsinline', '');
+              $(this).attr('muted', 'muted');
+
+              $(this).attr('id','loadvideo');
+              loadVideo = document.getElementById('loadvideo');
+              loadVideo.load();
+            });
+
+            $(window).scroll(function () { // video to play when is on viewport 
+            
+              $('video').each(function(){
+                if (isScrolledIntoView(this) == true) {
+                    $(this)[0].play();
+                } else {
+                    $(this)[0].pause();
+                }
+              });
+            
+            });  // video to play when is on viewport
+
+          } // end .field--name-field-video
+          
+          
+        });
+
+        })(jQuery);
+      </script>
+
+      <style>
+        #elixir_video{
+          display: block;
+          margin: auto;
+          padding-top: 150px;
+          width: 70%;
+        }
+        
+      </style>
 
 
     <!-- "Üneeded"
@@ -1196,7 +1284,7 @@
               </div>
               <div class="f1">
                   <h1 style="font-size: 1rem;">CONTACT US</h1>
-                  <li>Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</li>
+                  <li> <a href="https://g.page/Elixir-Pharma-eg?share" target="_blank" style="display: inline;">Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</a></li>
                   <li>Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
                   <li>Office Number: (+2)02 22675776</li>
                   <li>Mobile Number: 0 110 211 6791</li>
@@ -1204,26 +1292,27 @@
           </div>
           <div class="f0">
               <div class="f2">
-                  <h1 style="font-size: 17px;">© 2021 ELIXIR ALL RIGHTS RESERVED.</h1>
+                  <h1 style="font-size: 17px;margin-top: 52px;">© 2021 ELIXIR ALL RIGHTS RESERVED.</h1>
               </div>
               <div class="f2">
                   <div class="center">
+                    <p style="text-align: right; color: lightgrey;">Connect With Elixir</p>
                     <div id="social">
                       <ul>
                         <li class="facebook">
-                          <button class="border"><i class="fa fa-facebook"></i></button>
+                          <button class="border"><a href="https://www.facebook.com/elixirpharma.eg"><i class="fa fa-facebook"></i></a></button>
                         </li>
                     
                         <li class="twitter">
-                          <button class="border"><i class="fa fa-twitter"></i></button>
+                          <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg"><i class="fa fa-youtube"></i></a></button>
                         </li>
                     
                         <li class="instagram">
-                          <button class="border"><i class="fa fa-instagram"></i></button>
+                          <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/"><i class="fa fa-instagram"></i></a></button>
                         </li>
                         
                         <li class="dribbble">
-                          <button class="border"><i class="fa fa-dribbble"></i></button>
+                          <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg"><i class="fa fa-linkedin"></i></a></button>
                         </li>
                       </ul>
                     </div>

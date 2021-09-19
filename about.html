@@ -90,8 +90,25 @@
     width: 122%;
   }
 
-</style>
+  .in-se{
+    margin-right: 35px;
+    margin-top: -26px;
+    padding: 4px 28px;
+    border-radius: 15px;
+    transition: .5s ease;
+    color: white;
+    font-family: poppins;
+    background: white;
+  }
 
+  .in-se:hover{
+    padding: 4px 40px;
+    color: black;
+  }
+
+  
+
+</style>
 
 
   
@@ -105,15 +122,44 @@
         <div class="header__wrapper container-fluid" >
           <div class="header__inner">
             <img src="img/client-2-light.gif" style="width: 150px; margin-left: -6px; margin-top: -2%;" alt="">
-            <button class="header__menu-button" type="button">
-              <a class="search-0" href="search.html"> <img style="margin-right: 31px;" src="img/search-solid.svg" alt=""> </a>
+            
+            <a class="search-0" href="#"> 
+              <!--<img style="margin-right: 12px; width: 22px; float: right; margin-top: -8px;" src="img/search-solid.svg" di alt="">-->
+            </a>
+
+            <div class="" style="margin-top: -12px;">
+              <i class="fa fa-search icon" style="position: absolute; margin-left: 15px; margin-top: 4px; color: black;"></i>
+              <input class="in-se" style="" type="text"  >
+            </div>
+
+            <button class="header__menu-button" type="button" style="margin-top: -31px;">
               <span class="header__menu-button-inner"></span>
             </button>
+          </div>
+          <div id="social" style=" float: right; margin-top: -11px; margin-right: 22px; margin-bottom: -17px; ">
+            <ul>
+              <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
+              <li class="facebook" style="width: 20px;">
+                <a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i>
+              </li>
+          
+              <li class="twitter" style="width: 20px;">
+                <a href="https://www.youtube.com/c/ElixirPharma-eg" target="_blank"><i class="fa fa-youtube"></i>
+              </li>
+          
+              <li class="instagram" style="width: 20px;">
+                <a href="https://www.instagram.com/elixirpharmaeg/" target="_blank"><i class="fa fa-instagram"></i>
+              </li>
+              
+              <li class="dribbble" style="width: 20px;">
+                <a href="https://www.linkedin.com/company/elixirpharmaeg" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="header-fixed">
           <div class="header-fixed__bottom container" style="font-family: poppins; letter-spacing: -.5px; margin-top: -25px;">
-            <ul class="top-menu header-fixed__menu">
+            <ul class="top-menu header-fixed__menu smash">
               <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px; ">
                 <div class="dropdown">
                   <a class="dropdown__trigger top-menu__menu-link" href="index.html">Home</a>
@@ -125,32 +171,32 @@
                   <div class="dropdown__menu" style="font-size: 13px;">
                     <div class="dropdown__column">
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px; "> 
-                        <a class="dropdown__link" href="#story0">Our story</a>
+                        <a class="dropdown__link" href="about.html#story0">Our story</a>
                       </div>
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                        <a class="dropdown__link" href="#people0">Our people</a>
+                        <a class="dropdown__link" href="about.html#people0">Our people</a>
                       </div>
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                        <a class="dropdown__link" href="#culture0">Our culture</a>
+                        <a class="dropdown__link" href="about.html#culture0">Our culture</a>
                           <div class="dropdown__menu2" style="margin-left: 195px; padding-bottom: 7px; padding-top: 10px;">
                           <div class="dropdown__column3">
                             <div class="dropdown__item" > 
-                              <a class="dropdown__link" href="#ceo0">Our CEO MESSAGE</a>
+                              <a class="dropdown__link" href="about.html#ceo0">Our CEO MESSAGE</a>
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                        <a class="dropdown__link" href="#values0">Our Values</a>
+                        <a class="dropdown__link" href="about.html#values0">Our Values</a>
                       </div>
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                        <a class="dropdown__link" href="#vision0">Our Vision</a>
+                        <a class="dropdown__link" href="about.html#vision0">Our Vision</a>
                       </div>
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
-                        <a class="dropdown__link" href="#vision0">Our Mission</a>
+                        <a class="dropdown__link" href="about.html#vision0">Our Mission</a>
                       </div>
                       <div class="dropdown__item" >
-                        <a class="dropdown__link" href="#purpose0">Our purpose</a>
+                        <a class="dropdown__link" href="about.html#purpose0">Our purpose</a>
                       </div>
                     </div>
                   </div>
@@ -159,7 +205,7 @@
               <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
                 <div class="dropdown">
                   <a class="dropdown__trigger top-menu__menu-link" href="main-portfolio.html">OUR PORTFOLIO</a>
-                  <div class="dropdown__menu" style="font-size: 13px;">
+                  <div class="dropdown__menu" style="margin-top: -16px; font-size: 13px;">
                     <div class="dropdown__column2">
                       <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;"> 
                         <a class="dropdown__link" href="main-our-philosophy.html">Our Philosophy of service</a>
@@ -202,7 +248,7 @@
       </div>
       <div class="header__overlay"></div>
       <div class="menu-panel header__menu">
-        <div class="menu-panel__inner" style="font-family: 'Playfair Display';">
+        <div class="menu-panel__inner">
           <button class="header__menu-button header__menu-button_fixed" type="button">
             <span class="header__menu-button-inner"></span>
           </button>
@@ -296,7 +342,7 @@
             <div class="container-fluid">
               <div class="row">
               
-                <div class="col-md-6 wow fadeInLeft equal-height " id="story0">
+                <div class="col-md-6 wow fadeInLeft equal-height " id="story0" data-aos="fade-up">
                   <div class="fes2-main-text-cont">
                     <div class="title-fs-45">
                       Our<br>
@@ -323,7 +369,7 @@
             <div class="container-fluid">
               <div class="row">
                 
-                <div class="col-md-6 left-50 wow fadeInRight equal-height">
+                <div class="col-md-6 left-50 wow fadeInRight equal-height" data-aos="fade-up">
                     <div class="fes2-main-text-cont">
                       <div class="title-fs-45">
                         Who are <br>
@@ -354,7 +400,7 @@
           <hr class="mt-0 mb-0">	
   
           <!-- FEATURES 4 -->
-          <div class="page-section fes4-cont" id="vision0">
+          <div class="page-section fes4-cont" id="vision0" data-aos="fade-up" data-aos-duration="800">
             <div class="container">
               <div class="row">
   
@@ -367,7 +413,7 @@
                         </div>
                         <h3><span class="bold">Our Vision</span></h3>
                       </div>
-                      <div>
+                      <div style="font-family: 'Poppins';">
                         Is to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives.
                       </div>
                     </div>
@@ -380,7 +426,7 @@
                         </div>
                         <h3><span class="bold">Our Mission</span></h3>
                       </div>
-                      <div>
+                      <div style="font-family: 'Poppins';">
                         Is to reach the forefront of the Egyptian pharmaceutical market and lead pharmaceutical exports in Africa.
                       </div>
                     </div>
@@ -393,7 +439,7 @@
                   </div>
                   <h3><span class="bold">Our Values </span></h3>
                 </div>
-                <div id="values0">
+                <div id="values0" style="font-family: 'Poppins';">
                   At Elixir,
                   </div>we always favor quality over quantity.
                 </div>
@@ -415,7 +461,7 @@
                       </div>
                       <h3><span class="bold">Customer Centricity </span></h3>
                     </div>
-                    <div>
+                    <div style="font-family: 'Poppins';">
                     Customers are the center of our operations. Every action we take aims to ensure that customers and our community members are at the receiving end of effective pharmaceutical solutions. 
                     </div>
                   </div>
@@ -428,7 +474,7 @@
               </div>
               <h3><span class="bold">Respect and Integrity  </span></h3>
             </div>
-            <div>
+            <div style="font-family: 'Poppins';">
               We meet all stakeholder interactions and requests with transparency, compassion, and unfiltered honesty, to build solid bonds and further reinforce ourselves as a trustworthy organization.
             </div>
           </div>
@@ -442,7 +488,7 @@
               </div>
               <h3><span class="bold">Passion for Excellence </span></h3>
             </div>
-            <div>
+            <div style="font-family: 'Poppins';">
               Every Elixir team member strives to provide exceptional work and deliver high-quality results at every possible opportunity. We build our successes on the professional excellence of our team members.
             </div>
           </div>
@@ -453,7 +499,7 @@
   
           
           <!-- WORK PROCESS 1 -->
-          <div class="page-section work-proc-1-bg" id="purpose0" >
+          <div class="page-section work-proc-1-bg" id="purpose0" data-aos="fade-up" data-aos-duration="800">
             <div class="container fes4-cont">
               <div class="row">
                 <div class="" style="width: 100%;">
@@ -543,7 +589,7 @@
   
   
       <div class="page-section" >
-        <div class="container fes4-cont" style="padding-bottom: 6px;" id="people0">
+        <div class="container fes4-cont" style="padding-bottom: 6px;" id="people0" data-aos="fade-up" data-aos-duration="800">
           <div class="row">
             <div class="" style="width: 100%; padding-bottom: 8%;" >
               <div class="mb-50">
@@ -556,18 +602,81 @@
       </div> 
 
 
-      <div class="page-section" style="background: #58595b; color: white;" id="ceo0">
+      
+
+      
+      
+  
+    <div class="page-section p-140-cont" id="people0">
+      <div class="container">
+        <div class="row mb-100">
+        
+        <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800">
+          <div class="member-image">
+          <img src="img/team/team.jpg" alt="img">
+          </div>
+          <h3>Hany Aly</h3>
+          <span style="font-family: 'Poppins';">Founder & CEO</span>
+        </div>
+        
+        <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <div class="member-image">
+          <img src="img/team/ashraf.jpg" alt="img">
+          </div>
+          <h3>Ashraf Mostafa</h3>
+          <span style="font-family: 'Poppins';">Operation Manager</span>
+        </div>
+        
+        <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <div class="member-image">
+          <img src="img/team/rehab.jpg" alt="img">
+          </div>
+          <h3>Rehab Abdel Fattah</h3>
+          <span style="font-family: 'Poppins';">Regulatory Affairs Manager</span>
+        </div>		
+        </div>	
+        
+        <div class="row mb-100">
+        
+          <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <div class="member-image">
+            <img src="img/team/nesreen.jpg" alt="img">
+            </div>
+            <h3>Nesreen Abdel Aziz</h3>
+            <span style="font-family: 'Poppins';">Office Manager</span>
+          </div>
+          
+          <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <div class="member-image">
+            <img src="img/team/koriem.jpg" alt="img">
+            </div>
+            <h3>Mohamed Koriem</h3>
+            <span style="font-family: 'Poppins';">HR and Development Manager</span>
+          </div>
+          
+          <div class="member col-md-4 col-sm-4 wow fadeInUp" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <div class="member-image">
+            <img src="img/team/mamdouh.jpg" alt="img">
+            </div>
+            <h3>Mamadouh Mokhtar</h3>
+            <span style="font-family: 'Poppins';">Market Access Manager</span>
+          </div>		
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page-section" style="background: #58595b; color: white;" id="ceo0" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
           <div class="row">
 
             <div class="col-md-6 wow fadeInLeft">
             
               <div class="ads-img-cont" style="text-align: center;">
-                <img src="img/team/team.jpg" style="width: 80%;" alt="img">
+                <img src="img/team/team.jpg" style="width: 80%;" alt="img" >
               </div>
     
           </div>
-            
             <div class="col-md-6 ">
                 <div class="fes2-main-text-cont">
                   <div class="title-fs-45" style="color: white;">
@@ -578,70 +687,6 @@
                   <div class="fes2-text-cont">“Every member of this company’s team was handpicked to reflect true professional excellence for the greater good of the patients. By working together with our stakeholders, our goal is simple: to transform the pharmaceutical market in the Middle East for the better, forever, for all of us. There is no better time to start than now.”</div>
                 </div>
             </div>
-            
-
-            
-          </div>
-        </div>
-      </div>
-
-      
-      
-  
-    <div class="page-section p-140-cont" id="people0">
-      <div class="container">
-        <div class="row mb-100">
-        
-        <div class="member col-md-4 col-sm-4 wow fadeInUp">
-          <div class="member-image">
-          <img src="img/team/team.jpg" alt="img">
-          </div>
-          <h3>Hany Aly</h3>
-          <span>Founder & CEO</span>
-        </div>
-        
-        <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-          <div class="member-image">
-          <img src="img/team/ashraf.jpg" alt="img">
-          </div>
-          <h3>Ashraf Mostafa</h3>
-          <span>Operation Manager</span>
-        </div>
-        
-        <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-          <div class="member-image">
-          <img src="img/team/rehab.jpg" alt="img">
-          </div>
-          <h3>Rehab Abdel Fattah</h3>
-          <span>Regulatory Affairs Manager</span>
-        </div>		
-        </div>	
-        
-        <div class="row mb-100">
-        
-          <div class="member col-md-4 col-sm-4 wow fadeInUp">
-            <div class="member-image">
-            <img src="img/team/nesreen.jpg" alt="img">
-            </div>
-            <h3>Nesreen Abdel Aziz</h3>
-            <span>Office Manager</span>
-          </div>
-          
-          <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="200ms">
-            <div class="member-image">
-            <img src="img/team/koriem.jpg" alt="img">
-            </div>
-            <h3>Mohamed Koriem</h3>
-            <span>HR and Development Manager</span>
-          </div>
-          
-          <div class="member col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
-            <div class="member-image">
-            <img src="img/team/mamdouh.jpg" alt="img">
-            </div>
-            <h3>Mamadouh Mokhtar</h3>
-            <span>Market Access Manager</span>
-          </div>		
           </div>
         </div>
       </div>
@@ -649,7 +694,7 @@
 
 
       <!-- WORK PROCESS 1 -->
-				<div class="page-section work-proc-1-1-bg" id="culture0" >
+				<div class="page-section work-proc-1-1-bg" id="culture0" data-aos="fade-up" data-aos-duration="800">
 					<div class="container fes4-cont">
 						<div class="row">
 							
@@ -666,7 +711,7 @@
                           </div>
                           <h3><span class="bold">Within Our Offices</span></h3>
                         </div>
-                        <div>
+                        <div style="font-family: 'Poppins';">
                           We guarantee you support, commitment, integrity, punctuality, and, most importantly, passion.  
                         </div>
                       </div>
@@ -679,7 +724,7 @@
                   </div>
                   <h3><span class="bold">Our Aim </span></h3>
                 </div>
-                <div>
+                <div style="font-family: 'Poppins';">
                   To foster innovation and development through our combined offerings. 
                 </div>
               </div>
@@ -693,7 +738,7 @@
                   </div>
                   <h3><span class="bold">What We Heavily Promote </span></h3>
                 </div>
-                <div>
+                <div style="font-family: 'Poppins';"> 
                   Social responsibility and a strong belief in investing in the one resource central to the planet’s successful future: people.
                 </div>
               </div>
@@ -1013,19 +1058,19 @@
                     <div id="social">
                       <ul>
                         <li class="facebook">
-                          <button class="border"><i class="fa fa-facebook"></i></button>
+                          <button class="border"><a href="https://www.facebook.com/elixirpharma.eg"><i class="fa fa-facebook"></i></a></button>
                         </li>
                     
                         <li class="twitter">
-                          <button class="border"><i class="fa fa-twitter"></i></button>
+                          <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg"><i class="fa fa-youtube"></i></a></button>
                         </li>
                     
                         <li class="instagram">
-                          <button class="border"><i class="fa fa-instagram"></i></button>
+                          <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/"><i class="fa fa-instagram"></i></a></button>
                         </li>
                         
                         <li class="dribbble">
-                          <button class="border"><i class="fa fa-dribbble"></i></button>
+                          <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg"><i class="fa fa-linkedin"></i></a></button>
                         </li>
                       </ul>
                     </div>

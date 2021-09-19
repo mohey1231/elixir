@@ -60,21 +60,254 @@
         width: 122%;
       }
     
+      .in-se{
+        margin-right: 35px;
+        margin-top: -4px;
+        padding: 4px 28px;
+        border-radius: 15px;
+        transition: .5s ease;
+        color: white;
+        font-family: poppins;
+      }
+    
+      .in-se:hover{
+        padding: 4px 40px;
+        color: black;
+      }
+    
+      
+    
+    </style>
+    <style>
+
+      
+
+
+      .center2{
+      }
+
+      .center{
+        float: right;
+      }
+      .f0{
+        display: flex;
+        padding: 2%;
+        font-family: poppins;
+      }
+
+      .f1{
+        flex: 1;
+        font-size: 12px;
+      }
+
+      .f2{
+        flex: 1;
+      }
+
+
+
+
+      #social {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      #social ul {
+        padding-left: 0px;
+        margin: 0 auto;
+      }
+
+      #social li {
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 5px;
+      }
+
+      /** Facebook **/
+
+      .facebook {
+        width: 40px;
+        height: 40px;
+      }
+
+      .facebook .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .facebook .border:hover {
+        background: #3b5998;
+        border-color: #436aaf;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-facebook {
+        font-size: 15px;
+      }
+
+      /** Twitter **/
+
+      .twitter {
+        width: 40px;
+        height: 40px;
+      }
+
+      .twitter .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .twitter .border:hover {
+        background: #00aced;
+        border-color: #72c6e6;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-twitter {
+        font-size: 15px;
+      }
+
+      /** Instagram **/
+
+      .instagram {
+        width: 40px;
+        height: 40px;
+      }
+
+      .instagram .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .instagram .border:hover {
+        background: #517fa4;
+        border-color: #7495af;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-instagram {
+        font-size: 15px;
+      }
+
+      /** dribbble **/
+
+      .dribbble {
+        width: 40px;
+        height: 40px;
+      }
+
+      .dribbble .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .dribbble .border:hover {
+        background: #ea4c89;
+        border-color: #ff78ac;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-dribbble {
+        font-size: 15px;
+      }
+
+      #social ul li {
+        transition: ease .3s;
+      }
+
+      #social ul:hover > li {
+        opacity: 0.5;
+      }
+
+      #social ul:hover > li:hover {
+        opacity: 1;
+      }
+
+      .ze{
+        width: 20px;
+        display: inline;
+        padding: 0 4px;
+      }
+
     </style>
 </head>
   
 <body>
-
     <div class="page__inner animsition" style="position: sticky;">
       <header class="header  header_fixed header_offset" style="background: #000000c4; padding-bottom: 16px; font-size: 12px;" >
         <div class="header__container">
           <div class="header__wrapper container-fluid" >
             <div class="header__inner">
               <img src="img/client-2-light.gif" style="width: 150px; margin-left: -6px; margin-top: -2%;" alt="">
-              <button class="header__menu-button" type="button">
-                <a class="search-0" href="search.html"> <img style="margin-right: 31px;" src="img/search-solid.svg" alt=""> </a>
+              
+              <a class="search-0" href="#"> 
+                <!--<img style="margin-right: 12px; width: 22px; float: right; margin-top: -8px;" src="img/search-solid.svg" di alt="">-->
+              </a>
+  
+              <div class="" style="margin-top: -12px;">
+                <i class="fa fa-search icon" style="position: absolute; margin-left: 15px; margin-top: 4px; color: black;"></i>
+                <input class="in-se" style="" type="text"  >
+              </div>
+  
+              <button class="header__menu-button" type="button" style="margin-top: -31px;">
                 <span class="header__menu-button-inner"></span>
               </button>
+            </div>
+            <div id="social" style=" float: right; margin-top: -11px; margin-right: 31px; margin-bottom: 0px; ">
+              <ul>
+                <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
+                <li class="facebook ze" style=" display: inline;" >
+                  <a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i>
+                </li>
+            
+                <li class="twitter ze" style=" display: inline;">
+                  <a href="https://www.youtube.com/c/ElixirPharma-eg" target="_blank"><i class="fa fa-youtube"></i>
+                </li>
+            
+                <li class="instagram ze" style=" display: inline;">
+                  <a href="https://www.instagram.com/elixirpharmaeg/" target="_blank"><i class="fa fa-instagram"></i>
+                </li>
+                
+                <li class="dribbble ze" style=" display: inline;">
+                  <a href="https://www.linkedin.com/company/elixirpharmaeg" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="header-fixed">
@@ -232,7 +465,7 @@
 
     
 
-    <script src="assets/js/polyfill.min.js"></script>
+  <script src="assets/js/polyfill.min.js"></script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.viewport.min.js"></script>
   <script src="assets/js/jQuerySimpleCounter.min.js"></script>
