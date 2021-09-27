@@ -135,13 +135,42 @@
     padding: 4px 28px;
     border-radius: 15px;
     transition: .5s ease;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: poppins;
   }
 
   .in-se:hover{
     padding: 4px 40px;
     color: black;
+  }
+
+  .listy{
+    float: right;
+    margin-top: -11px;
+    margin-right: 22px;
+    margin-bottom: -17px;
+  }
+
+  @media only screen and (max-width:473px){
+    .in-se{
+      padding: 4px 0;
+    }
+
+    .fa-search{
+      display: none;
+    }
+
+    .in-se:hover{
+    padding: 4px 3px;
+    color: black;
+    }
+
+    .listy{
+      margin-right: -12px;
+    }
+
+  }
+    
   }
 
   
@@ -174,8 +203,8 @@
               <span class="header__menu-button-inner"></span>
             </button>
           </div>
-          <div id="social" style=" float: right; margin-top: -11px; margin-right: 22px; margin-bottom: -17px; ">
-            <ul>
+          <div id="social" class="listy" style="  ">
+            <ul >
               <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
               <li class="facebook" style="width: 20px;">
                 <a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i>
@@ -387,12 +416,23 @@
       </main>
       <!----------------------------------------------->
 
+      <style>
+        @media only screen and (max-width: 724px){
+          .mainy{
+            min-height: 56vh;
+          }
 
+        }
+
+        
+          
+        }
+      </style>
 
 
 
       <main class="section--">
-        <div class="main-slide main-slide main-slide_size_large">
+        <div class="main-slide main-slide main-slide_size_large mainy">
           <div class="parallax-image main-slide__image">
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background:#6b6b6c">
              <!-- <iframe data-aos="fade-up" width="1420" height="545" src="img/video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 12% 9% 9% 9%; width: 85%; border: 20px solid #e1e3e5;"></iframe>
@@ -518,9 +558,17 @@
             margin-top: 15%;
           }
         }
-          
-          
+
+        @media only screen and (max-width: 886px){
+          .small-2{
+            font-size: 12px;
+            line-height: 18px;
+          }
         }
+
+       
+          
+          
       </style>
 
 
@@ -535,14 +583,14 @@
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
               <div style="text-align: center; padding: 17%; ">
                 <h1 class="small-1" data-aos="fade-up">Who are we ?</h1>
-                <p class="small-2" data-aos="fade-up"  >Elixir Pharma is an emerging shareholding pharmaceutical company specializing in the provision of various commercial and scarce medications. Founded in 2018, we have rapidly grown with the ambition and drive of our highly qualified team.
-                  As a consumer-centric organization, we aim to empower our communities and facilitate access to cost-effective medications across the nation and expand across Africa.
-                  As such, we fuel the creation of long-term partnerships with our stakeholders to maximize mutual benefits and create lasting value for everyone involved.
-                </br><strong>
-                  "Elixir" has Latin, Greek, and Arabic origins, defined as "a potion with magical powers."  Elixir is modern-day's medicine.
-                  </strong>
+                <p class="small-2" data-aos="fade-up"  >The word ‘Elixir’ has Latin, Greek, and Arabic origins and is defined as “a potion with magical powers.” The same description applies to modern-day medicine, as its capabilities continue to grow and introduce life-changing improvements to patients’ lives.</br> 
+
+                  Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the provision of varied commercial and scarce medication. Founded in 2018, we have rapidly grown by innovatively creating a diversified portfolio of products on the back of the ambition and drive of our highly qualified team.</br>
+                   
+                  As a consumer-centric organization, we aim to empower our communities and facilitate access to cost-effective medication across the nation, with our next step seeing us expand across Africa. As such, we work towards creating long-term partnerships with our stakeholders to maximize mutual benefits and create a lasting impact that improves people’s quality of life everywhere we go.
+                  
                 </p>
-                <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="" href="">DISCOVER</a>
+                <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="" href="about.html">DISCOVER</a>
               </div>
             </div>
           </div>
@@ -751,18 +799,18 @@
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500">
                 <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
                 <h1 class="h1-sec" >OUR VISION</h1>
-                <p class="p1-sec">We are going to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives
+                <p class="p1-sec">Is to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives.
                   <br> 
-                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="">DISCOVER</a>
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#vision0">DISCOVER</a>
                 </p>
               </div>
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" >
                 <img src="img/2.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
                 <h1 class="h1-sec">Our mission</h1>
-                <p class="p1-sec">We are going to reach the forefront of the Egyptian pharmaceutical market and lead pharmaceutical exports in Africa
+                <p class="p1-sec">Is to reach the forefront of the Egyptian pharmaceutical market and lead pharmaceutical exports in Africa.
                   <br> 
                   <br>
-                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="">DISCOVER</a>
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#vision0">DISCOVER</a>
                 </p>
               </div>
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650" >
@@ -770,7 +818,7 @@
                 <h1 class="h1-sec">Our values</h1>
                 <p class="p1-sec">At Elixir, we will always favor quality over quantity.
                   <br> <br><br><br><br>
-                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="">DISCOVER</a>
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#values0">DISCOVER</a>
                 </p>
               </div>
             </div>
@@ -797,7 +845,7 @@
 
 
         .xoom{
-          padding: 27% 13%;
+          padding: 22% 13%;
           background-size: cover;
           background-position: 50%;
           text-transform: uppercase;
@@ -854,6 +902,24 @@
 
          }
 
+         @media only screen and (max-width: 767px){
+
+
+            .zomy{
+              display: block;
+            }
+
+            .square{
+              height: 33%;
+            }
+
+         }
+
+
+
+
+         
+
         
 
 
@@ -866,7 +932,7 @@
     <main class="section--">  
       <div class="purpose">
         <div class="container" style="padding-top: 12%;">
-          <div class="zoom-counter__inner zoom-counter__inner25">
+          <div class="zoom-counter__inner zoom-counter__inner25 zomy">
             <div class="square" data-aos="fade" data-aos-duration="1500"></div>
             <div class="xoom" style="background-image: url('img/zoom-count-bg.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
             </div>
@@ -874,9 +940,10 @@
               <div class="zoom-counter__subtitle">Elixir Pharma</div>
               <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px;">Our Purpose</div>
               <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px;">
-                <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment.</p>
+                <h3>People deserve to live, not just survive.</h3>
+                <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment. Through communication, we aim to build a platform that cares for people on both; physical and mental levels. We invest in growing ideas, recommendations, insights, and support to create a positive environment that strengthens the tie between people’s health and happiness...</p>
               </div>
-              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #2b3b4e;">Discover</a>
+              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="about.html#purpose0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #2b3b4e;">Discover</a>
             </div>
           </div>
         </div>
@@ -903,7 +970,7 @@
         }
 
         .xoom2{
-          padding: 34% 19%;
+          padding: 32% 13%;
           background-size: cover;
           background-position: 50%;
           text-transform: uppercase;
@@ -982,7 +1049,7 @@
     <main class="section--">
       <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1; padding-bottom: 6%;">
         <div class="container" style="padding-top: 5%;">
-          <div class="zoom-counter__inner zoom-counter__inner25-2">
+          <div class="zoom-counter__inner zoom-counter__inner25-2 zomy">
             <div class="square2" data-aos="fade" data-aos-duration="1500"></div>
             <div class="xoom2" style="background-image: url('img/zoom-count-bg3.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
             </div>
@@ -990,10 +1057,10 @@
               <div class="zoom-counter__subtitle" style="display: none;">Elixir Pharma</div>
               <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px; color: #e1e3e5;">CEO Message</div>
               <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px; color: #e1e3e5c2;">
-                <p>It started with the dream of a young man, who enrooted his love of trade since childhood. The dream grow bigger with a project in Madcascar (TRUST PHARMA) which produced trusted connections, a deeper understanding of the country and the African needs. Further connections with Egyptian companies allowed Hany to import medication into Madagascar, and contribute to the improvement of the country’s health Temporary return to the multinational world and another quick climb up the ladder expanded Hany’s network, and Soon this passion has turned this to be Elixir pharma. 
+                <p>“Every member of this company’s team was handpicked to reflect true professional excellence for the greater good of the patients. By working together with our stakeholders, our goal is simple: to transform the pharmaceutical market in the Middle East for the better, forever, for all of us. There is no better time to start than now.” 
                 </p>
               </div>
-              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #e1e3e5c2;">Discover</a>
+              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="about.html#ceo0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #e1e3e5c2;">Discover</a>
             </div>
           </div>
         </div>
@@ -1001,7 +1068,7 @@
     </main>
 
     <main class="section--">
-      <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1;">
+      <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1; background: #e1e3e5;">
         <div class="container" style="    padding-top: 20%; padding-bottom: 27%;">
           <img src="img/start3.gif" alt="" style="display: block; margin: auto; width: 46%;">
           <div class="zoom-counter__inner zoom-counter__inner25-2">
