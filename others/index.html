@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Elixir Pharma" name="description">
+  <meta content="RASANS" name="author">
+  <title>Elixir Pharma</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link href="assets/css/icofont.min.css" rel="stylesheet">
+  <link href="assets/css/linearicons.min.css" rel="stylesheet">
+  <link href="assets/css/magnific-popup.min.css" rel="stylesheet">
+  <link href="assets/css/animsition.min.css" rel="stylesheet">
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!--Theme CSS-->
+  <link href="assets/css/theme.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <!--Favicons-->
+  <link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="favicons/site.webmanifest" rel="manifest">
+  <link color="#5bbad5" href="favicons/safari-pinned-tab.svg" rel="mask-icon">
+  <link href="favicons/favicon-32x32.png" rel="shortcut icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <meta content="#da532c" name="msapplication-TileColor">
+  <meta content="favicons/browserconfig.xml" name="msapplication-config">
+  <meta content="#ffffff" name="theme-color">
+</head>
+
+<style>
+  
+  .mem{
+    animation-name: m;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes m{
+    0%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+    100%{display: none;}
+
+  }
+
+  body div{
+    animation-name: m2;
+    animation-duration: 4s;
+  }
+
+  @keyframes m2{
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  .header{
+    animation-name: m3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes m3{
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+
+</style>
+
+<!--Back to Top-->
+
+
+<style>
+  .back-to-top {
+      position: fixed;
+      bottom: 77px;
+      right: 74px;
+      width: 64px;
+      height: 64px;
+      z-index: 9999;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s ease-out;
+      background-image: url(img/top.png);
+  }
+  .back-to-top:hover{
+      opacity: 0.7;
+  }
+
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+
+      //Check to see if the window is top if not then display button
+      $(window).scroll(function(){
+
+          // Show button after 100px
+          var showAfter = 100;
+          if ($(this).scrollTop() > showAfter) {                 
+              $('.back-to-top').fadeIn();
+          } else {   
+              $('.back-to-top').fadeOut();
+          }
+      });
+      
+      //Click event to scroll to top
+      $('.back-to-top').click(function(){
+          $('html, body').animate({scrollTop : 0},800);
+          return false;
+      });
+      
+  });
+  </script>
+
+
+<style>
+  .search-0{
+    /**position: absolute;**/
+    margin-left: -140px;
+    width: 122%;
+  }
+
+  .in-se{
+    margin-right: 35px;
+    margin-top: -26px;
+    padding: 4px 28px;
+    border-radius: 15px;
+    transition: .5s ease;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+  }
+
+  .in-se:hover{
+    padding: 4px 40px;
+    color: black;
+  }
+
+  .listy{
+    float: right;
+    margin-top: -11px;
+    margin-right: 22px;
+    margin-bottom: -17px;
+  }
+
+  @media only screen and (max-width:473px){
+    .in-se{
+      padding: 4px 0;
+    }
+
+    .fa-search{
+      display: none;
+    }
+
+    .in-se:hover{
+    padding: 4px 3px;
+    color: black;
+    }
+
+    .listy{
+      margin-right: -12px;
+    }
+
+  }
+    
+  }
+
+
+
+  
+
+</style>
+
+
+  
+
+<!--style="background: #ffffffa6; padding-bottom: 16px;"-->
+
+<body class="page" >
+  <div class="page__inner animsition" style="position: sticky;">
+    <header class="header  header_fixed header_offset" style="background: #000000c4; padding-bottom: 16px; font-size: 12px;" >
+      <div class="header__container">
+        <div class="header__wrapper container-fluid" >
+          <div class="header__inner">
+            <img src="img/client-2-light.gif" style="width: 150px; margin-left: -6px; margin-top: -2%;" alt="">
+            
+            <a class="search-0" href="#"> 
+              <!--<img style="margin-right: 12px; width: 22px; float: right; margin-top: -8px;" src="img/search-solid.svg" di alt="">-->
+            </a>
+
+            <div class="" style="margin-top: -12px;">
+              <i class="fa fa-search icon" style="position: absolute; margin-left: 15px; margin-top: 4px; color: black;"></i>
+              <input class="in-se" style="" type="text"  >
+            </div>
+
+            <button class="header__menu-button" type="button" style="margin-top: -31px;">
+              <span class="header__menu-button-inner"></span>
+            </button>
+          </div>
+          <div id="social" class="listy" style="  ">
+            <ul >
+              <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
+              <li class="facebook" style="width: 20px;">
+                <a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i>
+              </li>
+          
+              <li class="twitter" style="width: 20px;">
+                <a href="https://www.youtube.com/c/ElixirPharma-eg" target="_blank"><i class="fa fa-youtube"></i>
+              </li>
+          
+              <li class="instagram" style="width: 20px;">
+                <a href="https://www.instagram.com/elixirpharmaeg/" target="_blank"><i class="fa fa-instagram"></i>
+              </li>
+              
+              <li class="dribbble" style="width: 20px;">
+                <a href="https://www.linkedin.com/company/elixirpharmaeg" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-fixed">
+          <div class="header-fixed__bottom container" style="font-family: poppins; letter-spacing: -.5px; margin-top: -25px;">
+            <ul class="top-menu header-fixed__menu smash">
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px; ">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="index.html">Home</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="about.html">ABOUT US</a>
+                  <div class="dropdown__menu" style="font-size: 13px;">
+                    <div class="dropdown__column">
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px; "> 
+                        <a class="dropdown__link" href="about.html#story0">Our story</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="about.html#people0">Our people</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="about.html#culture0">Our culture</a>
+                          <div class="dropdown__menu2" style="margin-left: 195px; padding-bottom: 7px; padding-top: 10px;">
+                          <div class="dropdown__column3">
+                            <div class="dropdown__item" > 
+                              <a class="dropdown__link" href="about.html#ceo0">Our CEO MESSAGE</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="about.html#values0">Our Values</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="about.html#vision0">Our Vision</a>
+                      </div>
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;">
+                        <a class="dropdown__link" href="about.html#vision0">Our Mission</a>
+                      </div>
+                      <div class="dropdown__item" >
+                        <a class="dropdown__link" href="about.html#purpose0">Our purpose</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="main-portfolio.html">OUR PORTFOLIO</a>
+                  <div class="dropdown__menu" style="margin-top: 0px; font-size: 13px;">
+                    <div class="dropdown__column2">
+                      <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px;"> 
+                        <a class="dropdown__link" href="main-our-philosophy.html">Our Philosophy of service</a>
+                      </div>
+                      <div class="dropdown__item" style="padding-bottom: 4px;">
+                        <a class="dropdown__link" href="main-portfolio.html">Our Products</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="main-future-steps.html">OUR FUTURE STEPS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">RESEARCH</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">NEWS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">CAREERS</a>
+                </div>
+              </li>
+              <li class="top-menu__menu-item">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">CONTACT US</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header__overlay"></div>
+      <div class="menu-panel header__menu">
+        <div class="menu-panel__inner">
+          <button class="header__menu-button header__menu-button_fixed" type="button">
+            <span class="header__menu-button-inner"></span>
+          </button>
+          <div class="menu-panel__menu">
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link menu-panel__menu-link menu-panel__menu-link_active" data-toggle="collapse" href="index.html">Home</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href=" #">ABOUT US</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR PRODUCTS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">OUR FUTURE STEPS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">RESEARCH</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">NEWS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CAREERS</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">ACTIVITIES</a>
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href=" #">CONTACT US</a>
+            </div>
+          </div>
+          <div class="menu-panel__footer">
+            <div class="socials menu-panel__socials">
+              <a class="socials__social icofont-twitter" href="#">
+                <div class="visually-hidden">twitter</div>
+              </a>
+              <a class="socials__social icofont-facebook" href="#">
+                <div class="visually-hidden">facebook</div>
+              </a>
+              <a class="socials__social icofont-google-plus" href="#">
+                <div class="visually-hidden">google plus</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+      <main>
+        <div class="zoom-image-head">
+          <div class="zoom-image-head__body">
+            <div class="zoom-image-head__bg">
+              <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg6.jpg')"></div>
+            </div>
+            <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg5.png" style="margin-left: 70px;"/>
+            <div class="zoom-image-head__content container" style="    color: white;">
+              <div class="zoom-image-head__subtitle">Elixir Pharma</div>
+              <div class="zoom-image-head__title">Enhancing
+                <br/>
+                Lives
+              </div>
+
+              <!--
+              <div class="center2">
+                <div id="social">
+                  <ul>
+                    <li class="facebook">
+                      <button class="border"><a href="https://www.facebook.com/elixirpharma.eg"><i class="fa fa-facebook"></i></a></button>
+                    </li>
+                
+                    <li class="twitter">
+                      <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg"><i class="fa fa-youtube"></i></a></button>
+                    </li>
+                
+                    <li class="instagram">
+                      <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/"><i class="fa fa-instagram"></i></a></button>
+                    </li>
+                    
+                    <li class="dribbble">
+                      <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg"><i class="fa fa-linkedin"></i></a></button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              -->
+              <div class="zoom-image-head__text" style="line-height: 23px;">
+                <br/>
+
+              </div>
+              <div class="zoom-image-head__icon icofont-dotted-down"></div>
+             </div>
+          </div>
+        </div>
+
+      </main>
+      <!----------------------------------------------->
+
+      <style>
+        @media only screen and (max-width: 724px){
+          .mainy{
+            min-height: 56vh;
+          }
+
+        }
+
+        
+          
+        }
+      </style>
+
+
+
+      <main class="section--">
+        <div class="main-slide main-slide main-slide_size_large mainy">
+          <div class="parallax-image main-slide__image">
+            <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background:#6b6b6c">
+             <!-- <iframe data-aos="fade-up" width="1420" height="545" src="img/video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 12% 9% 9% 9%; width: 85%; border: 20px solid #e1e3e5;"></iframe>
+              -->
+              <div style="padding-top: 130px;"></div>
+              <video id="elixir_video" width="1000" controls="controls" preload="metadata"  style="display: block; margin: auto; width: 70%;" >
+                <source src="img/video.mp4?autoplay=1" type="video/mp4">
+              </video>
+              
+              
+            </div>
+          </div>
+        </div>
+      </main>
+
+     
+
+
+      <script>
+        (function($) {
+
+        $(document).ready(function() { 
+
+
+          var elementTop, elementBottom, viewportTop, viewportBottom;
+
+          function isScrolledIntoView(elem) {
+            elementTop = $(elem).offset().top;
+            elementBottom = elementTop + $(elem).outerHeight();
+            viewportTop = $(window).scrollTop();
+            viewportBottom = viewportTop + $(window).height();
+            return (elementBottom > viewportTop && elementTop < viewportBottom);
+          }
+          
+          if($('video').length){
+
+            var loadVideo;
+
+            $('video').each(function(){
+              $(this).attr('webkit-playsinline', '');
+              $(this).attr('playsinline', '');
+              $(this).attr('muted', 'muted');
+
+              $(this).attr('id','loadvideo');
+              loadVideo = document.getElementById('loadvideo');
+              loadVideo.load();
+            });
+
+            $(window).scroll(function () { // video to play when is on viewport 
+            
+              $('video').each(function(){
+                if (isScrolledIntoView(this) == true) {
+                    $(this)[0].play();
+                } else {
+                    $(this)[0].pause();
+                }
+              });
+            
+            });  // video to play when is on viewport
+
+          } // end .field--name-field-video
+          
+          
+        });
+
+        })(jQuery);
+      </script>
+
+      <style>
+        #elixir_video{
+          display: block;
+          margin: auto;
+          padding-top: 150px;
+          width: 70%;
+        }
+        
+      </style>
+
+
+    <!-- "Üneeded"
+
+      <div class="main-slide__slide-inner">
+        <div class="main-slide__subtitle-wrapper">
+          <div class="main-slide__subtitle">Architecture</div>
+        </div>
+        <div class="main-slide__title-wrapper">
+          <div class="main-slide__title">Art Museum,
+            <br>
+            Poland
+          </div>
+          <div class="main-slide__label-wrapper">
+            <div class="main-slide__label">completed</div>
+            <div class="main-slide__label-value">2019</div>
+          </div>
+        </div>
+        <div class="main-slide__text-wrapper">
+          <div class="main-slide__text">For each project we establish relationships with partners who we know will help us create added value for your project</div>
+        </div>
+      </div>
+
+      --->
+
+      
+      <!----------------------------------------------->
+
+      <style>
+        .small-1{
+          font-size: 100px; font-family: Playfair display; letter-spacing: -5px; color: #2b3b4e;
+
+        }
+
+        .small-2{
+          font-size: 17px; font-family: poppins; line-height: 30px; color: #2b3b4e; text-align: justify;
+        }
+
+        .small-3{
+          font-size: 24px; font-family: poppins; color: #2b3b4e; font-weight: 300;
+        }
+
+        @media only screen and (max-width: 800px){
+          .small-1{
+            font-size: 50px;
+            margin-top: 15%;
+          }
+        }
+
+        @media only screen and (max-width: 886px){
+          .small-2{
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+
+       
+          
+          
+      </style>
+
+
+
+
+
+
+
+      <main class="section--">
+        <div class="main-slide main-slide main-slide_size_large">
+          <div class="parallax-image main-slide__image">
+            <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
+              <div style="text-align: center; padding: 17%; ">
+                <h1 class="small-1" data-aos="fade-up">Who are we ?</h1>
+                <p class="small-2" data-aos="fade-up"  >The word ‘Elixir’ has Latin, Greek, and Arabic origins and is defined as “a potion with magical powers.” The same description applies to modern-day medicine, as its capabilities continue to grow and introduce life-changing improvements to patients’ lives.</br> 
+
+                  Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the provision of varied commercial and scarce medication. Founded in 2018, we have rapidly grown by innovatively creating a diversified portfolio of products on the back of the ambition and drive of our highly qualified team.</br>
+                   
+                  As a consumer-centric organization, we aim to empower our communities and facilitate access to cost-effective medication across the nation, with our next step seeing us expand across Africa. As such, we work towards creating long-term partnerships with our stakeholders to maximize mutual benefits and create a lasting impact that improves people’s quality of life everywhere we go.
+                  
+                </p>
+                <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="" href="about.html">DISCOVER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+
+      
+
+
+      <!----------------------------------------------->
+
+
+      <style>
+        .secy{
+          flex: 1;
+          margin-top: 30%;
+          color: White;
+        }
+
+        .secy-1{
+          flex: 1;
+          margin-top: -7%;
+          margin-bottom: -34px;
+          text-align: justify;
+          color: rgb(204, 204, 204);
+          font-family: poppins;
+        }
+
+        .secy-2{
+          width: 12%;
+          margin: 4% 61% 0;
+        }
+
+
+        @media only screen and (max-width: 600px){
+          .secy-2{
+            margin: 20% 61% 0;
+          }
+
+          .secy{
+            font-size: 35px;
+
+          }
+        }
+
+      </style>
+      <!--
+      <main class="section--" style="background: #2d2d2e;" >
+        <div class="single-post">
+          <div class="parallax-image single-post__head">
+            <div  class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/news-single-post-head-image.jpg');border-bottom: 30px solid lightgrey;">
+              <div style="display: flex; width: 47%;margin: auto;">
+                <h1 class="secy" data-aos="fade-up" data-aos-duration="1500">At Elixir,<br>
+                  we always favor quality<br>
+                  over quantity.</h1>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; width: 47%;margin: auto;" data-aos="fade-up" data-aos-duration="1500">
+            <p class="secy-1" data-aos="fade-up">It started with the dream of a young man, who enrooted his love of trade since childhood. The dream grow bigger with a project in Madcascar
+              (TRUST PHARMA) which produced trusted connections, a deeper understanding of the country and the African needs. Further connections with
+              Egyptian companies allowed Hany to import medication into Madagascar, and contribute to the improvement of the country’s health Temporary
+              return to the multinational world and another quick climb up the ladder expanded Hany’s network, and Soon this passion has turned this to be Elixir
+              pharma. <br> <br>
+                <a data-aos="fade-up" data-aos-duration="1500" class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted" style="color: white;" href="">DISCOVER</a>        
+            </p>
+          </div>
+          
+          <img class="secy-2" src="img/x.png" alt="">
+        </div>
+      </main>
+      -->
+
+
+
+
+
+    <!----------------------------------------------->
+
+      <style>
+        .icony{
+          display: flex;
+          margin-top: -200px;
+          position: absolute;
+          margin-left: 70px;
+        }
+
+        .icony-1{
+          flex: 0.28;
+          padding: 1%;
+        }
+
+        .h1-sec{
+          margin:5px 0 5px 0 ;
+          font-size: 25px;
+          font-family: 'Playfair Display';
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        .p1-sec{
+          margin:5px 0 5px 0 ;
+          width: 66%;
+          /**text-align: justify;**/
+          font-family: poppins;
+
+        }
+
+        .p1-sec-a{
+          margin:20px 0 5px 0 ;
+          font-size: 17px;
+        }
+
+        .secy-3{
+          width: 30%;
+          margin: 9% 87% 0;
+        }
+
+        .abty0{
+          text-align: center;
+        }
+
+        .abty{
+          display: inline-block;
+          text-align: center;
+          margin-top: 137px;
+          font-size: 20px;
+          font-family: 'Playfair Display';
+          font-weight: 700;
+          color: white;
+          background: #2b2b2b;
+          padding: 9px 17px;
+        }
+
+
+        @media only screen and (max-width: 500px){
+            .icony{
+              display: inline;
+              position: inherit;
+            }
+
+            .purpose{
+              
+            }
+
+          }
+
+
+        @media only screen and (max-width: 767px){
+          .icony{
+            margin-top: -165px;
+          }
+          .h1-sec{
+            font-size: 20px;
+          }
+          .p1-sec , .p1-sec-a {
+            font-size: 10px;
+          }
+
+        }
+
+        @media only screen and (max-width: 600px){
+          .icony{
+            margin-left: 12%;
+          }
+        }
+
+        @media only screen and (min-width: 1990px) {
+          .icony{
+            margin-right: 21%;
+          }
+          
+        }
+
+        @media only screen and (max-width: 600px){
+            .secy-3{
+              margin: 20% 61% 0;
+            }
+
+         }
+        
+         @media only screen and (max-width: 991px){
+            .secy-3{
+              margin: 42% 70% 0;
+            }
+
+          }
+
+
+
+
+      </style>
+
+      <main class="section--">
+        <div class="">
+          <div class="parallax-image single-post__head" style="background-image: url('img/news-single-post-head-image2.jpg'); background-position: center;">
+            <div class="abty0" data-aos="fade-up" data-aos-duration="1500">
+              <h1 class="abty">About Elixir</h1>
+            </div>
+            <div class="parallax-image__image" data-rellax-speed="-3" ></div>
+          </div>
+          <div class="container" style="margin-bottom: 250px;">
+            <div class="icony">
+              <div class="icony-1" data-aos="fade-up" data-aos-duration="1500">
+                <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec" >OUR VISION</h1>
+                <p class="p1-sec">Is to provide groundbreaking, affordable, and innovative pharmaceutical solutions across Egypt and Africa to improve the quality of people’s lives.
+                  <br> 
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#vision0">DISCOVER</a>
+                </p>
+              </div>
+              <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" >
+                <img src="img/2.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec">Our mission</h1>
+                <p class="p1-sec">Is to reach the forefront of the Egyptian pharmaceutical market and lead pharmaceutical exports in Africa.
+                  <br> 
+                  <br>
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#vision0">DISCOVER</a>
+                </p>
+              </div>
+              <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650" >
+                <img src="img/3.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
+                <h1 class="h1-sec">Our values</h1>
+                <p class="p1-sec">At Elixir, we will always favor quality over quantity.
+                  <br> <br><br><br><br>
+                  <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" href="about.html#values0">DISCOVER</a>
+                </p>
+              </div>
+            </div>
+            <img class="secy-3" src="img/x.png" alt="">
+        </div>
+      </main>
+    </main>
+
+
+
+
+
+      <!----------------------------------------------->
+      <!----------------------------------------------->
+
+      <style>
+        .square{
+          height: 65%;
+          width: 45%;
+          margin-left: -377px;
+          background-color: #231f20;
+          position: absolute;
+        }
+
+
+        .xoom{
+          padding: 22% 13%;
+          background-size: cover;
+          background-position: 50%;
+          text-transform: uppercase;
+          /* margin-bottom: 78px; */
+          width: 56.3%;
+          min-width: 34.3%;
+          margin-top: 58px;
+          position: relative;
+          margin-right: 14.4%;
+        }
+
+
+        .zoom-count1{
+          margin-top: 25%;
+          border-left: 1px solid;
+          padding-left: 50px;
+          margin-left: -80px;
+        }
+
+        .purpose{
+          margin-top: -250px;
+          border-top: 1px solid #c1c1c1;
+          padding-bottom: 6%;
+
+        }
+
+        @media only screen and (max-width: 991px){
+            .xoom{
+              margin: 26% 17% 0;
+              padding: 24% 15%;
+            }
+
+            .zoom-counter__inner25{
+              margin-top: -18%;
+            }
+
+            .square{
+              width: 78%;
+            }
+
+          }
+
+        @media only screen and (max-width: 767px){
+            .xoom{
+              padding: 48% 37%;;
+            }
+            .zoom-count1{
+              margin-left: 0;
+            }
+
+            .square{
+              width: 130%;
+            }
+
+         }
+
+         @media only screen and (max-width: 767px){
+
+
+            .zomy{
+              display: block;
+            }
+
+            .square{
+              height: 33%;
+            }
+
+         }
+
+
+
+
+         
+
+        
+
+
+      </style>
+
+
+
+
+
+    <main class="section--">  
+      <div class="purpose">
+        <div class="container" style="padding-top: 12%;">
+          <div class="zoom-counter__inner zoom-counter__inner25 zomy">
+            <div class="square" data-aos="fade" data-aos-duration="1500"></div>
+            <div class="xoom" style="background-image: url('img/zoom-count-bg.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
+            </div>
+            <div class="zoom-counter__info zoom-count1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">
+              <div class="zoom-counter__subtitle">Elixir Pharma</div>
+              <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px;">Our Purpose</div>
+              <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px;">
+                <h3>People deserve to live, not just survive.</h3>
+                <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment. Through communication, we aim to build a platform that cares for people on both; physical and mental levels. We invest in growing ideas, recommendations, insights, and support to create a positive environment that strengthens the tie between people’s health and happiness...</p>
+              </div>
+              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="about.html#purpose0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #2b3b4e;">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+
+
+      <!----------------------------------------------->
+
+
+
+
+      <style>
+        .square2{
+          height: 95%;
+          width: 57%;
+          margin-left: 29%;
+          background-color: #231f20;
+          position: absolute;
+        }
+
+        .xoom2{
+          padding: 32% 13%;
+          background-size: cover;
+          background-position: 50%;
+          text-transform: uppercase;
+          /* margin-bottom: 78px; */
+          width: 85.3%;
+          min-width: 34.3%;
+          margin-top: 58px;
+          position: relative;
+          margin-right: 14.4%;
+        }
+
+
+        .zoom-count1-2{
+          margin-top: 25%;
+          border-left: 1px solid #808285;
+          padding-left: 30px;
+          margin-left: 8px;
+        }
+
+
+        @media only screen and (max-width: 1999px){
+
+            .zoom-count1-2{
+              margin-left: -104px;
+            }
+
+            .square2{
+              width: 78%;
+            }
+
+
+
+          }
+
+        @media only screen and (max-width: 991px){
+            .xoom2{
+              margin: 26% 15% 0;
+              padding: 24% 15%;
+            }
+
+            .zoom-counter__inner25-2{
+              margin-left: -76px;
+            }
+
+            .square2{
+              width: 78%;
+              display: none;
+              
+            }
+
+            .zxt{
+              background: #221e1f;
+            }
+
+          }
+
+        @media only screen and (max-width: 767px){
+            .xoom2{
+              padding: 68% 37%;;
+            }
+            .zoom-count1-2{
+              margin-left: 77px;
+              padding-left: 17px;
+            }
+
+            .square2{
+              width: 130%;
+            }
+
+         }
+      </style>
+      
+
+
+
+    <main class="section--">
+      <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1; padding-bottom: 6%;">
+        <div class="container" style="padding-top: 5%;">
+          <div class="zoom-counter__inner zoom-counter__inner25-2 zomy">
+            <div class="square2" data-aos="fade" data-aos-duration="1500"></div>
+            <div class="xoom2" style="background-image: url('img/zoom-count-bg3.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
+            </div>
+            <div class="zoom-counter__info zoom-count1-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">
+              <div class="zoom-counter__subtitle" style="display: none;">Elixir Pharma</div>
+              <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px; color: #e1e3e5;">CEO Message</div>
+              <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px; color: #e1e3e5c2;">
+                <p>“Every member of this company’s team was handpicked to reflect true professional excellence for the greater good of the patients. By working together with our stakeholders, our goal is simple: to transform the pharmaceutical market in the Middle East for the better, forever, for all of us. There is no better time to start than now.” 
+                </p>
+              </div>
+              <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="about.html#ceo0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #e1e3e5c2;">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="section--">
+      <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1; background: #e1e3e5;">
+        <div class="container" style="    padding-top: 20%; padding-bottom: 27%;">
+          <img src="img/start3.gif" alt="" style="display: block; margin: auto; width: 46%;">
+          <div class="zoom-counter__inner zoom-counter__inner25-2">
+            <h1>News will be published when we began working on the main server..</h1>
+            
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    
+
+    <div id="section--1" class="section--">
+      <span>
+      </span>
+    </div>
+
+    
+
+    <style>
+      .squar{
+          height: 81%;
+          width: 68%;
+          margin-left: -23%;
+          background-color: #2b3b4e;
+          position: absolute;
+        }
+    </style>
+
+    
+<!--
+    <main class="section--">
+      <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1;">
+        <div class="container" style="padding-top: 11%;">
+          <div class="zoom-counter__inner zoom-counter__inner25-2">
+            <div class="squar" data-aos="fade" data-aos-duration="1500"></div>
+            <div style="display: flex; position: relative;padding-top: 14%;">
+              <div style="flex: 3; padding: 10px;height: 600px;color: aliceblue;">
+                <img style="padding-bottom: 15px; width: 93%; " src="img/blog.jpg" alt="">
+                <h1 style="font-size: 27px;">Launching our Anti-Infective Line with the first product
+                  ELIXOZOLID (linezolid 600mg).</h1>
+                <p style="font-family: poppins;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonur adipiscing elit, sed diam nonur adipiscing elit, sed diam nonummy</p>
+              </div>
+
+              <div style="flex: 1; padding: 10px;height: 300px;">
+                <img style="padding-bottom: 15px; width: 72%; " src="img/blog.jpg" alt="">
+                <h1 style="font-size: 12px;font-weight: 800;">Launching our Anti-Infective Line with the first product
+                  ELIXOZOLID (linezolid 600mg).</h1>
+                <p style="font-family: poppins;font-size: 11px;line-height: 14px;">piscing elit, sed diam nonur adipiscing elit, sed diam nonummy</p>
+                <br>
+                <img style="padding-bottom: 15px; width: 72%; " src="img/blog.jpg" alt="">
+                <h1 style="font-size: 12px;font-weight: 800;">Launching our Anti-Infective Line with the first product
+                  ELIXOZOLID (linezolid 600mg).</h1>
+                <p style="font-family: poppins;font-size: 11px;line-height: 14px;">piscing elit, sed diam nonur adipiscing elit, sed diam nonummy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+-->
+
+
+
+
+
+
+    <style>
+
+      
+
+
+      .center2{
+      }
+
+      .center{
+        float: right;
+      }
+      .f0{
+        display: flex;
+        padding: 2%;
+        font-family: poppins;
+      }
+
+      .f1{
+        flex: 1;
+        font-size: 12px;
+      }
+
+      .f2{
+        flex: 1;
+      }
+
+
+
+
+      #social {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      #social ul {
+        padding-left: 0px;
+        margin: 0 auto;
+      }
+
+      #social li {
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 5px;
+      }
+
+      /** Facebook **/
+
+      .facebook {
+        width: 40px;
+        height: 40px;
+      }
+
+      .facebook .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .facebook .border:hover {
+        background: #3b5998;
+        border-color: #436aaf;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-facebook {
+        font-size: 15px;
+      }
+
+      /** Twitter **/
+
+      .twitter {
+        width: 40px;
+        height: 40px;
+      }
+
+      .twitter .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .twitter .border:hover {
+        background: #00aced;
+        border-color: #72c6e6;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-twitter {
+        font-size: 15px;
+      }
+
+      /** Instagram **/
+
+      .instagram {
+        width: 40px;
+        height: 40px;
+      }
+
+      .instagram .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .instagram .border:hover {
+        background: #517fa4;
+        border-color: #7495af;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-instagram {
+        font-size: 15px;
+      }
+
+      /** dribbble **/
+
+      .dribbble {
+        width: 40px;
+        height: 40px;
+      }
+
+      .dribbble .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .dribbble .border:hover {
+        background: #ea4c89;
+        border-color: #ff78ac;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-dribbble {
+        font-size: 15px;
+      }
+
+      #social ul li {
+        transition: ease .3s;
+      }
+
+      #social ul:hover > li {
+        opacity: 0.5;
+      }
+
+      #social ul:hover > li:hover {
+        opacity: 1;
+      }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-default footer">
+      <div class="container">
+        <div>
+          <div class="f0">
+              <div class="f1">
+                  <h1 style="font-size: 1rem;">ABOUT US</h1>
+                  <li> <a href=""> OUR CULTURE </a></li>
+                  <li><a href="">OUR VALUES</a></li>
+                  <li><a href="">OUR VISION</a></li>
+                  <li><a href="">OUR MISSION</a></li>
+              </div>
+              <div class="f1">
+                  <h1 style="font-size: 1rem;">OUR PRODUCTS</h1>
+                  <li><a href="">OUR PHILOSOPHY OF SERVICE</a></li>
+                  <li><a href="">OUR PARTNERSHIP PRODUCTS</a></li>
+                  <li><a href="">OUR PRODUCTS</a></li>
+              </div>
+              <div class="f1">
+                  <h1 style="font-size: 1rem;">CONTACT US</h1>
+                  <li> <a href="https://g.page/Elixir-Pharma-eg?share" target="_blank" style="display: inline;">Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</a></li>
+                  <li>Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
+                  <li>Office Number: (+2)02 22675776</li>
+                  <li>Mobile Number: 0 110 211 6791</li>
+              </div>
+          </div>
+          <div class="f0">
+              <div class="f2">
+                  <h1 style="font-size: 17px;margin-top: 52px;">© 2021 ELIXIR ALL RIGHTS RESERVED.</h1>
+              </div>
+              <div class="f2">
+                  <div class="center">
+                    <p style="text-align: right; color: lightgrey;">Connect With Elixir</p>
+                    <div id="social">
+                      <ul>
+                        <li class="facebook">
+                          <button class="border"><a href="https://www.facebook.com/elixirpharma.eg"><i class="fa fa-facebook"></i></a></button>
+                        </li>
+                    
+                        <li class="twitter">
+                          <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg"><i class="fa fa-youtube"></i></a></button>
+                        </li>
+                    
+                        <li class="instagram">
+                          <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/"><i class="fa fa-instagram"></i></a></button>
+                        </li>
+                        
+                        <li class="dribbble">
+                          <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg"><i class="fa fa-linkedin"></i></a></button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img 
+        style="
+        position: absolute;
+        top: 36%;
+        right: 2%;
+        width: 17%;
+        mix-blend-mode: color-dodge;"
+        src="img/x3.png" alt="">
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!----------------------------------------------->
+      <!---
+
+      <footer class="footer-default footer">
+        <div class="container">
+          <div class="footer-default__head">
+            <a  href="/"><img src="img/x2.png" style="width: 100%; margin: -6%; mix-blend-mode: multiply;" alt=""></a>
+          </div>
+          <div class="row">
+            <div class="footer-default__column col-12 col-sm-6 col-md-3">
+              <div class="footer-default__group-title">company</div>
+              <p>Cairo / Full Address
+                <br/>
+                Street Name
+              </p>
+              <p>
+                <a href="mailto:elixir@elixirpharma-eg.com">elixir@elixirpharma-eg.com</a>
+              </p>
+              <p>(02) 22675776</p>
+            </div>
+            <div class="footer-default__column col-12 col-sm-6 col-md-3">
+              <div class="footer-default__group-title">help center</div>
+              <ul class="footer-default__list">
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Link</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Link</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Link</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Link</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Link</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-default__column col-12 col-sm-6 col-md-3">
+              <div class="footer-default__group-title">quick links</div>
+              <ul class="footer-default__list">
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">About</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Contact</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Career</a>
+                </li>
+                <li class="footer-default__list-item">
+                  <a class="footer-default__list-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-default__column col-12 col-sm-6 col-md-3">
+              <div class="socials footer-default__socials">
+                <a class="socials__social icofont-twitter" href="#">
+                  <div class="visually-hidden">twitter</div>
+                </a>
+                <a class="socials__social icofont-facebook" href="#">
+                  <div class="visually-hidden">facebook</div>
+                </a>
+                <a class="socials__social icofont-google-plus" href="#">
+                  <div class="visually-hidden">google plus</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-default__bottom">
+            <div class="footer-default__copyright">© 2021
+              <strong>Elixir Pharma</strong>
+              All Rights Reserved.
+            </div>
+            <div class="footer-default__author">Design by
+              <a href="#">RASANS</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      --->
+  </div>
+  <img class="mem" src="img/start3.gif" alt="" style="position: absolute; top: 34%; right: 35%; width: 30%; ">
+  <a href="#" class="back-to-top"></a>
+  <!--JS-->
+  <script src="assets/js/polyfill.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.viewport.min.js"></script>
+  <script src="assets/js/jQuerySimpleCounter.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/animsition.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/rellax.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/svg4everybody.legacy.min.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/TimelineLite.min.js"></script>
+  <script src="assets/js/typed.min.js"></script>
+  <script src="assets/js/vivus.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!--Theme JS-->
+  <script src="assets/js/theme.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+  try {
+    fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+      return true;
+    }).catch(function(e) {
+      var carbonScript = document.createElement("script");
+      carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+      carbonScript.id = "_carbonads_js";
+      document.getElementById("carbon-block").appendChild(carbonScript);
+    });
+  } catch (error) {
+    console.log(error);
+  }
+</script>
+
+  <style>
+       
+    #section--0 {
+      height: 60vh;
+      background: #eeeeee;
+    }
+
+    
+
+    #section--2 {
+      height: 150vh;
+      background: #eeeeee;
+    }
+
+    #section--3 {
+      height: 60vh;
+      background: #eeeeee;
+    }
+
+    #section--4 {
+      height: 100vh;
+      background: #eeeeee;
+    }
+
+
+    /* ==========================================================================
+      Media Queries
+      ========================================================================== */
+
+    @media only screen and (min-width: 35em) {
+    }
+
+    @media print,
+      (-o-min-device-pixel-ratio: 5/4),
+      (-webkit-min-device-pixel-ratio: 1.25),
+      (min-resolution: 120dpi) {
+    }
+
+    /* ==========================================================================
+      Helper classes
+      ========================================================================== */
+
+    .hidden {
+      display: none !important;
+      visibility: hidden;
+    }
+
+    .visuallyhidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+
+    .invisible {
+      visibility: hidden;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+      content: " ";
+      display: table;
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
+    .clearfix {
+      *zoom: 1;
+    }
+
+    /* ==========================================================================
+      Print styles
+      ========================================================================== */
+
+    @media print {
+      *,
+      *:before,
+      *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+      }
+
+
+
+      abbr[title]:after {
+        content: " (" attr(title) ")";
+      }
+
+      
+
+      pre,
+      blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+      }
+
+      thead {
+        display: table-header-group;
+      }
+
+
+    }
+  </style>
+  
+
+
+
+
+
+
+</body>
+
+</html>

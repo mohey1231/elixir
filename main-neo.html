@@ -31,53 +31,6 @@
     <meta content="favicons/browserconfig.xml" name="msapplication-config">
     <meta content="#ffffff" name="theme-color">
     <title>full screen iframe</title>
-    <style type="text/css">
-
-
-        iframe {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            border: none;
-        }
-          
-        iframe {
-            display: block;
-            width: 100%;
-            border: none;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-
-        html{
-          scroll-behavior: smooth;
-        }
-    </style>
-    <style>
-      .search-0{
-        /**position: absolute;**/
-        margin-left: -140px;
-        width: 122%;
-      }
-    
-      .in-se{
-        margin-right: 35px;
-        margin-top: -4px;
-        padding: 4px 28px;
-        border-radius: 15px;
-        transition: .5s ease;
-        color: white;
-        font-family: poppins;
-      }
-    
-      .in-se:hover{
-        padding: 4px 40px;
-        color: black;
-      }
-    
-      
-    
-    </style>
     <style>
 
       
@@ -266,9 +219,86 @@
       }
 
     </style>
+ 
+    <style type="text/css">
+
+
+      iframe {
+          margin: 0px;
+          padding: 0px;
+          height: 100%;
+          border: none;
+      }
+        
+      iframe {
+          display: block;
+          width: 100%;
+          border: none;
+          overflow-y: auto;
+          overflow-x: hidden;
+      }
+
+      html{
+        scroll-behavior: smooth;
+      }
+  </style>
+  <style>
+    .search-0{
+      /**position: absolute;**/
+      margin-left: -140px;
+      width: 122%;
+    }
+
+    .in-se{
+      margin-right: 35px;
+      margin-top: -4px;
+      padding: 4px 28px;
+      border-radius: 15px;
+      transition: .5s ease;
+      color: rgb(0, 0, 0);
+      font-family: poppins;
+    }
+
+    .in-se:hover{
+      padding: 4px 40px;
+      color: black;
+    }
+
+    .listy{
+      float: right;
+      margin-top: -18px;
+      margin-right: 22px;
+      margin-bottom: -17px;
+    }
+
+    @media only screen and (max-width:473px){
+    .in-se{
+      padding: 4px 0;
+    }
+
+    .fa-search{
+      display: none;
+    }
+
+    .in-se:hover{
+    padding: 4px 3px;
+    color: black;
+    }
+
+    .listy{
+      margin-right: -12px;
+    }
+
+  }
+
+
+
+  
+    
+  </style>
 </head>
   
-<body>
+<body class="page">
     <div class="page__inner animsition" style="position: sticky;">
       <header class="header  header_fixed header_offset" style="background: #000000c4; padding-bottom: 16px; font-size: 12px;" >
         <div class="header__container">
@@ -289,7 +319,7 @@
                 <span class="header__menu-button-inner"></span>
               </button>
             </div>
-            <div id="social" style=" float: right; margin-top: -11px; margin-right: 31px; margin-bottom: 0px; ">
+            <div id="social" id="social" class="listy">
               <ul>
                 <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
                 <li class="facebook ze" style=" display: inline;" >

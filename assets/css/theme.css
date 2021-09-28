@@ -4698,7 +4698,7 @@ menu-panel
   -webkit-overflow-scrolling: touch;
   display: -ms-flexbox;
   display: flex;
-  width: 35%;
+  width: 100%;
 }
 
 .menu-panel__inner {
