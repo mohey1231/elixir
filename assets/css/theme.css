@@ -159,6 +159,7 @@ body {
   line-height: 1;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  padding-bottom: 0 !important;
 }
 
 a {
@@ -292,6 +293,29 @@ table {
 custom bootstrap styles
 */
 
+@media only screen and (max-width: 767px){
+  .f1{
+    font-size: 11px !important;
+  }
+
+}
+
+@media only screen and (max-width:380px){
+  .in-se{
+    font-size: 8px !important;
+  }
+  body #social p{
+    display: table-cell !important;
+  }
+  .listy{
+    margin-right: 15px !important;
+    margin-top: -40px !important;
+  }
+
+}
+  
+
+
 a:hover {
   color: #9d9d9d;
   text-decoration: none;
@@ -327,13 +351,13 @@ main {
 
 ::-webkit-scrollbar {
   width: 8px;
-  height: 8px;
-  background: #fff;
+  height: 0px;
+  /**background: #fff;**/
 }
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #8e8e8e;
+  /**background: #8e8e8e;**/
 }
 
 ::selection {
@@ -3038,7 +3062,7 @@ footer
 */
 
 .footer_fixed {
-  position: fixed;
+  
   left: 0;
   bottom: 0;
   width: 100%;
@@ -4686,6 +4710,8 @@ masonry
 menu-panel
 */
 
+
+
 .menu-panel {
   position: fixed;
   background: #fff;
@@ -4815,7 +4841,7 @@ menu-panel
 }
 
 .menu-panel__socials {
-  margin-top: 60px;
+  margin-top: 15px;
   transition: all 0.5s 0.7s ease;
   transform: translateY(3rem);
   opacity: 0;
@@ -6949,8 +6975,13 @@ socials
   transition: all 0.3s;
 }
 
+div .menu-panel__submenu-item , .menu-panel__bottom-submenu , .menu-panel__menu-list .collapse .show {
+  animation-duration: 0ms;
+  animation-name: none;
+}
+
 .socials__social:not(:first-child) {
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .socials__social:hover {

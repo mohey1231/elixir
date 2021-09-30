@@ -433,14 +433,13 @@
         <style>
 
 
-
           .center2{
             float: right;
           }
           .f0{
             display: flex;
             padding: 7% 2% 2% 2%;
-            font-family: poppins;
+            font-family: 'Poppins' !important;
           }
     
           .f1{
@@ -451,6 +450,19 @@
           .f2{
             flex: 1;
           }
+
+          @media only screen and (max-width:600px){
+
+            .f0{
+              display: block;
+            }
+
+            #social{
+              padding-bottom: 100px;
+            }
+
+          }
+            
     
     
     
@@ -607,11 +619,25 @@
             opacity: 1;
           }
 
+          #lin2{
+            color: white;
+            font-size: 14px;
+            transition-duration: .3s;
+
+          }
+
           #lin{
             color: white;
             font-size: 14px;
+            transition-duration: .3s;
 
           }
+
+          #lin:hover{
+            opacity: .5;
+          }
+
+          
     
         </style>
     
@@ -630,26 +656,25 @@
         <footer class="footer-default footer" style="background: url(../img/footer.jpg );background-size: cover; background-position: right;">
           <div class="container">
             <div>
-              <div class="f0" style="color: white; font-family: 'Lato';">
+              <div class="f0" style="color: white; ">
                   <div class="f1" style="color: white;" >
-                      <h1 style="font-size: 2rem; color: white;margin: 40px 0 8px 0;font-weight: 900;">ABOUT US</h1>
-                      <li> <a id="lin" target="_top" target="_top" target="_top" href="" target="_top"> OUR CULTURE </a></li>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR VALUES</a></li>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR VISION</a></li>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR MISSION</a></li>
+                      <h1 style="font-size: 2rem; color: white;margin: 40px 0 8px 0; font-weight: 500; font-family: 'Poppins';">ABOUT US</h1>
+                      <li> <a id="lin"  href="../about.html#culture0" target="_top"> OUR CULTURE </a></li>
+                      <li><a id="lin"  href="../about.html#values0" target="_top">OUR VALUES</a></li>
+                      <li><a id="lin"  href="../about.html#vision0" target="_top">OUR VISION</a></li>
+                      <li><a id="lin"  href="../about.html#vision0" target="_top">OUR MISSION</a></li>
                   </div>
                   <div class="f1">
-                      <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 900;">OUR PRODUCTS</h1>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR PHILOSOPHY OF SERVICE</a></li>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR PARTNERSHIP PRODUCTS</a></li>
-                      <li><a id="lin" target="_top" target="_top" target="_top" href="" target="_top">OUR PRODUCTS</a></li>
+                      <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">OUR PRODUCTS</h1>
+                      <li><a id="lin"  href="../main-our-philosophy.html" target="_top">OUR PHILOSOPHY OF SERVICE</a></li>
+                      <li><a id="lin"  href="../main-portfolio.html" target="_top">OUR PRODUCTS</a></li>
                   </div>
                   <div class="f1">
-                      <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 900;">CONTACT US</h1>
-                      <li id="lin">Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</li>
-                      <li id="lin">Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
-                      <li id="lin">Office Number: (+2)02 22675776</li>
-                      <li id="lin">Mobile Number: 0 110 211 6791</li>
+                      <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
+                      <li id="lin"> <a target="_top" href="https://g.page/Elixir-Pharma-eg?share" style="color: #ffffff;"> Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</a></li>
+                      <li id="lin2">Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
+                      <li id="lin2">Office Number: (+2)02 22675776</li>
+                      <li id="lin2">Mobile Number: 0 110 211 6791</li>
                   </div>
               </div>
               <div class="f0">
@@ -661,19 +686,19 @@
                         <div id="social">
                           <ul>
                             <li class="facebook">
-                              <button class="border"><i class="fa fa-facebook"></i></button>
+                              <button class="border"><a href="https://www.facebook.com/elixirpharma.eg" target="_top"><i class="fa fa-facebook"></i></a></button>
                             </li>
                         
                             <li class="twitter">
-                              <button class="border"><i class="fa fa-twitter"></i></button>
+                              <button class="border"><a href="https://www.youtube.com/c/ElixirPharma-eg" target="_top"><i class="fa fa-youtube"></i></a></button>
                             </li>
                         
                             <li class="instagram">
-                              <button class="border"><i class="fa fa-instagram"></i></button>
+                              <button class="border"><a href="https://www.instagram.com/elixirpharmaeg/" target="_top"><i class="fa fa-instagram"></i></a></button>
                             </li>
                             
                             <li class="dribbble">
-                              <button class="border"><i class="fa fa-dribbble"></i></button>
+                              <button class="border"><a href="https://www.linkedin.com/company/elixirpharmaeg" target="_top"><i class="fa fa-linkedin"></i></a></button>
                             </li>
                           </ul>
                         </div>
