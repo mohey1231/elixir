@@ -749,6 +749,37 @@
             list-style-type: none;
             margin-left: 5px;
           }
+
+          /** Facebook **/
+    
+          .map {
+            width: 40px;
+            height: 40px;
+          }
+    
+          .map .border {
+            background: transparent;
+            outline: none;
+            color:rgba(255,255,255, 0.3);
+            width: 40px;
+            height: 40px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            border: 2px solid rgba(255,255,255, 0.3);
+            transition: all .2s ease-in-out;
+          }
+    
+          .map .border:hover {
+            background: #b80d0d;
+            border-color: #b80d0d;
+            color: rgba(255,255,255, 0.9);
+            transform: scale(1.2);
+          }
+    
+          .fa.fa-facebook {
+            font-size: 15px;
+          }
     
           /** Facebook **/
     
@@ -952,6 +983,11 @@
                       <div class="center2">
                         <div id="social">
                           <ul>
+
+                            <li class="map">
+                              <button class="border"><a href="https://g.page/Elixir-Pharma-eg?share" target="_top"><i class="fa fa-map-marker"></i></a></button>
+                            </li>
+
                             <li class="facebook">
                               <button class="border"><a href="https://www.facebook.com/elixirpharma.eg" target="_top"><i class="fa fa-facebook"></i></a></button>
                             </li>

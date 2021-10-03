@@ -1146,6 +1146,35 @@
     font-size: 15px;
   }
 
+  .map {
+            width: 40px;
+            height: 40px;
+          }
+    
+          .map .border {
+            background: transparent;
+            outline: none;
+            color:rgba(255,255,255, 0.3);
+            width: 40px;
+            height: 40px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            border: 2px solid rgba(255,255,255, 0.3);
+            transition: all .2s ease-in-out;
+          }
+    
+          .map .border:hover {
+            background: #b80d0d;
+            border-color: #b80d0d;
+            color: rgba(255,255,255, 0.9);
+            transform: scale(1.2);
+          }
+    
+          .fa.fa-facebook {
+            font-size: 15px;
+          }
+
   #social ul li {
     transition: ease .3s;
   }
@@ -1197,19 +1226,19 @@
     <div>
       <div class="f0" style="color: white; ">
           <div class="f1" style="color: white;" >
-              <h1 style="font-size: 2rem; color: white;margin: 40px 0 8px 0; font-weight: 500; font-family: 'Poppins';">ABOUT US</h1>
+              <h1 style="font-size: 1.3rem; color: white;margin: 40px 0 8px 0; font-weight: 500; font-family: 'Poppins';">ABOUT US</h1>
               <li><a id="lin"  href="about.html#culture0" target="_blank"> OUR CULTURE </a></li>
               <li><a id="lin"  href="about.html#values0" target="_blank">OUR VALUES</a></li>
               <li><a id="lin"  href="about.html#vision0" target="_blank">OUR VISION</a></li>
               <li><a id="lin"  href="about.html#vision0" target="_blank">OUR MISSION</a></li>
           </div>
           <div class="f1">
-              <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">OUR PRODUCTS</h1>
+              <h1 style="font-size: 1.3rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">OUR PRODUCTS</h1>
               <li><a id="lin"  href="main-our-philosophy.html" target="_blank">OUR PHILOSOPHY OF SERVICE</a></li>
               <li><a id="lin"  href="main-portfolio.html" target="_blank">OUR PRODUCTS</a></li>
           </div>
           <div class="f1">
-              <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
+              <h1 style="font-size: 1.3rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
               <li id="lin" style="list-style: none;">
                 <a target="_blank" href="https://g.page/Elixir-Pharma-eg?share" style="color: #ffffff; display: contents;">
                   <i class="fa fa-map-marker"></i> &nbsp; Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt
@@ -1228,6 +1257,12 @@
               <div class="center2">
                 <div id="social">
                   <ul>
+
+                    <li class="map">
+                      <button class="border"><a href="https://g.page/Elixir-Pharma-eg?share" target="_blank"><i class="fa fa-map-marker"></i></a></button>
+                    </li>
+
+
                     <li class="facebook">
                       <button class="border"><a href="https://www.facebook.com/elixirpharma.eg" target="_blank"><i class="fa fa-facebook"></i></a></button>
                     </li>
