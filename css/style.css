@@ -2854,7 +2854,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .page-sub-title {
   font-family: 'Poppins';
   margin-bottom:15px;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   font-size: 12px;
   line-height:15px;
   text-transform:uppercase;
@@ -2863,8 +2863,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   margin-top: 53px;
   text-align:right;
   font-size:11px;
-  letter-spacing:2px;
+  letter-spacing:1px;
   text-transform:uppercase;
+  font-family: 'Poppins';
 }
 .breadcrumbs a{
   color:#7e8082;
@@ -4705,7 +4706,7 @@ blockquote.custom-blockquote:before {
   font-size:18px;
   text-transform:uppercase;
   font-weight:600;
-  font-family: 'Poppins';
+  font-family: 'Playfair display';
 }
 .blog-page-title small{
   font-size:12px;
@@ -10599,7 +10600,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .fes2-text-cont{
 	margin-top:30px;
   font-family: 'Poppins';
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 25px;
   font-weight: 300;
   text-align: justify;

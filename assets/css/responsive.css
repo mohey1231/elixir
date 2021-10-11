@@ -45,6 +45,14 @@
   }
 }
 
+@media only screen and (max-height: 750px){
+  .top-menu {
+    margin-left: 9% !important; 
+  }
+}
+
+
+
 @media only screen and (max-height: 900px){
   .zoom-image-head__bg2{
     left: 13%;

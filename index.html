@@ -311,7 +311,11 @@
       margin-right: 22px;
       margin-bottom: -17px;
     }
-
+    @media only screen and (min-width:1900px){
+      .listy{
+        margin-top: -5px;
+      }
+    }
     @media only screen and (max-width:473px){
     .in-se{
       padding: 4px 0;
@@ -331,6 +335,14 @@
     }
 
   }
+
+  @media only screen and (max-width:1350px) {
+    .top-menu-2{
+      padding-left: 54px;
+    }
+    
+  }
+
 
 
 
@@ -362,7 +374,7 @@
             </div>
             <div id="social" id="social" class="listy">
               <ul>
-                <p style="display: inline; padding-right: 5px;">Connect With <strong> Elixir </strong> :</p>
+                <p style="display: inline; padding-right: 5px;font-family: 'Poppins';">Connect With <strong> Elixir </strong> :</p>
                 <li class="facebook ze" style=" display: inline;" >
                   <a target="_top" href="https://www.facebook.com/elixirpharma.eg" ><i class="fa fa-facebook"></i>
                 </li>
@@ -383,7 +395,7 @@
           </div>
           <div class="header-fixed">
             <div class="header-fixed__bottom container" style="font-family: poppins; letter-spacing: -.5px; margin-top: -25px;">
-              <ul class="top-menu header-fixed__menu smash">
+              <ul class="top-menu top-menu-2 header-fixed__menu smash">
                 <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px; ">
                   <div class="dropdown">
                     <a class="dropdown__trigger top-menu__menu-link" target="_top" href="index.html">Home</a>
@@ -392,8 +404,8 @@
                 <li class="top-menu__menu-item" style="border-right: 1px solid; padding-right: 16px;">
                   <div class="dropdown">
                     <a class="dropdown__trigger top-menu__menu-link" target="_top" href="about.html">ABOUT US</a>
-                    <div class="dropdown__menu" style="font-size: 13px;">
-                      <div class="dropdown__column">
+                    <div class="dropdown__menu" style="font-size: 13px; text-transform: initial !important ;">
+                      <div class="dropdown__column" >
                         <div class="dropdown__item" style="border-bottom: 1px solid #b9c6cc; padding-bottom: 4px; "> 
                           <a class="dropdown__link" target="_top" href="about.html#story0">Our story</a>
                         </div>
@@ -523,7 +535,7 @@
                     </div>
                 </div>
               </div>
-              <div class="menu-panel__menu-item">
+              <div class="menu-panel__menu-item special-1" >
                 <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" target="_top" href="main-future-steps.html">OUR FUTURE STEPS</a>
               </div>
               <div class="menu-panel__menu-item">

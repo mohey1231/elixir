@@ -293,6 +293,14 @@ table {
 custom bootstrap styles
 */
 
+@media only screen and (max-width: 1350px){
+  .header-fixed__bottom{
+    margin-left: 53px;
+  }
+
+}
+
+
 @media only screen and (max-width: 767px){
   .f1{
     font-size: 11px !important;
@@ -1508,7 +1516,7 @@ dropdown
 
 .dropdown__item {
   margin-bottom: 2px;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 
 .dropdown__link {
@@ -3525,6 +3533,10 @@ header-full-page
 header
 */
 
+.special-1{
+  padding-top: 15px;
+}
+
 .header {
   position: absolute;
   left: 0;
@@ -4230,6 +4242,14 @@ logo
 /*
 main-slide
 */
+
+@media only screen and (max-width: 1676px){
+  .main-slide {
+    min-height: 70vh !important;
+
+  }
+
+ }
 
 .main-slide {
   min-height: 100vh;
@@ -7744,6 +7764,7 @@ header-fixed
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 600;
+  letter-spacing: .5px;
 }
 
 .top-menu__menu-link:after {

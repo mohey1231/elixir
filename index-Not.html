@@ -282,7 +282,7 @@
 
      
 
-
+<!--
       <script>
         (function($) {
 
@@ -343,6 +343,8 @@
         
       </style>
 
+      -->
+
 
     <!-- "Üneeded"
 
@@ -377,7 +379,7 @@
         }
 
         .small-2{
-          font-size: 17px; font-family: poppins; line-height: 30px; color: #2b3b4e; text-align: justify;
+          font-size: 16px; font-family: poppins; line-height: 30px; color: #2b3b4e; text-align: justify;
         }
 
         .small-3{
@@ -410,14 +412,14 @@
 
 
       <main class="section--">
-        <div class="main-slide main-slide main-slide_size_large">
+        <div class="main-slide main-slide main-slide_size_large" style=" min-height: 100vh !important;">
           <div class="parallax-image main-slide__image">
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
-              <div style="text-align: center; padding: 17%; ">
+              <div style="text-align: center; padding: 13%; ">
                 <h1 class="small-1" data-aos="fade-up">Who are we ?</h1>
-                <p class="small-2" data-aos="fade-up"  >The word ‘Elixir’ has Latin, Greek, and Arabic origins and is defined as “a potion with magical powers.” The same description applies to modern-day medicine, as its capabilities continue to grow and introduce life-changing improvements to patients’ lives.</br> 
+                <p class="small-2" data-aos="fade-up"  >The word ‘Elixir’ has Latin, Greek, and Arabic origins and is defined as “a potion with magical powers.” </br></br> The same description applies to modern-day medicine, as its capabilities continue to grow and introduce life-changing improvements to patients’ lives.</br></br> 
 
-                  Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the provision of varied commercial and scarce medication. Founded in 2018, we have rapidly grown by innovatively creating a diversified portfolio of products on the back of the ambition and drive of our highly qualified team.</br>
+                  Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the provision of varied commercial and scarce medication.</br></br> Founded in 2018, we have rapidly grown by innovatively creating a diversified portfolio of products on the back of the ambition and drive of our highly qualified team.</br></br>
                    
                   As a consumer-centric organization, we aim to empower our communities and facilitate access to cost-effective medication across the nation, with our next step seeing us expand across Africa. As such, we work towards creating long-term partnerships with our stakeholders to maximize mutual benefits and create a lasting impact that improves people’s quality of life everywhere we go.
                   
@@ -542,6 +544,7 @@
         .secy-3{
           width: 30%;
           margin: 9% 87% 0;
+          padding: 1px 2px 120px 2px;
         }
 
         .abty0{
@@ -556,7 +559,7 @@
           font-family: 'Playfair Display';
           font-weight: 700;
           color: white;
-          background: #2b2b2b;
+          /* background: #2b2b2b; */
           padding: 9px 17px;
         }
 
@@ -621,7 +624,7 @@
 
       <main class="section--">
         <div class="">
-          <div class="parallax-image single-post__head" style="background-image: url('img/news-single-post-head-image2.jpg'); background-position: center;">
+          <div class="parallax-image single-post__head" style="background-image: url('img/news-single-post-head-image2.jpg'); background-position: center;background-size: cover;">
             <div class="abty0" data-aos="fade-up" data-aos-duration="1500">
               <h1 class="abty">About Elixir</h1>
             </div>
@@ -633,28 +636,37 @@
                 <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
                 <h1 class="h1-sec" >OUR VISION</h1>
                 <p class="p1-sec">Is to provide groundbreaking, affordable, and innovative ..
+                  <!--
                   <br> 
                   <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" target="_blank" href="about.html#vision0">DISCOVER</a>
+                  -->
                 </p>
               </div>
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" >
                 <img src="img/2.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
                 <h1 class="h1-sec">Our mission</h1>
                 <p class="p1-sec">Is to reach the forefront of the Egyptian pharmaceutical ..
+                  <!--
                   <br> 
                   <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" target="_blank" href="about.html#vision0">DISCOVER</a>
+                  -->
                 </p>
               </div>
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650" >
                 <img src="img/3.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
                 <h1 class="h1-sec">Our values</h1>
-                <p class="p1-sec">At Elixir, we will always favor quality over quantity ..
+                <p class="p1-sec">At Elixir, we will always favor quality over quantity .. 
+                  <!--
                   <br> <br>
                   <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e;" target="_blank" href="about.html#values0">DISCOVER</a>
+                  -->
                 </p>
               </div>
             </div>
             <img class="secy-3" src="img/x.png" alt="">
+            <div style="text-align: center; margin: -25%; padding-bottom: 7%;">
+              <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e; font-size: 20px !important;" target="_blank" href="about.html#values0">DISCOVER</a>
+            </div>
         </div>
       </main>
     </main>
@@ -746,6 +758,45 @@
             }
 
          }
+         
+
+         @media only screen and (max-width: 991px){
+            .square {
+              margin-left: -40% !important;
+
+            }
+          
+           }
+
+
+
+         @media only screen and (max-width: 2600px){
+            .square {
+              margin-left: -27%;
+
+            }
+
+            .square2{
+              margin-left: 19% !important;
+            }
+          
+           }
+           
+         @media only screen and (min-width: 2601px){
+            .square {
+              margin-left: -28%;
+
+            }
+
+            .square2{
+              margin-left: 20% !important;
+            }
+          
+           }
+
+           
+
+
 
 
 
@@ -766,13 +817,13 @@
         <div class="container" style="padding-top: 12%;">
           <div class="zoom-counter__inner zoom-counter__inner25 zomy">
             <div class="square" data-aos="fade" data-aos-duration="1500"></div>
-            <div class="xoom" style="background-image: url('img/zoom-count-bg.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
+            <div class="xoom" style="background-image: url('img/zoom-count-bg.jpg');border: 10px solid grey;" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
             </div>
             <div class="zoom-counter__info zoom-count1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">
               <div class="zoom-counter__subtitle">Elixir Pharma</div>
               <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px;">Our Purpose</div>
               <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px;">
-                <h3>People deserve to live, not just survive.</h3>
+                <h3 style="font-family: Playfair display;">People deserve to live, not just survive.</h3>
                 <p>We believe in every person’s right to medicine, but we also seek to improve people’s lives beyond medical treatment. Through communication, we aim to build a platform that cares for people on both; physical and mental levels. We invest in growing ideas, recommendations, insights, and support to create a positive environment that strengthens the tie between people’s health and happiness...</p>
               </div>
               <a class="zoom-counter__read-more zoom-counter__read-more_inverted" target="_blank" href="about.html#purpose0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #2b3b4e;">Discover</a>
@@ -883,13 +934,13 @@
         <div class="container" style="padding-top: 5%;">
           <div class="zoom-counter__inner zoom-counter__inner25-2 zomy">
             <div class="square2" data-aos="fade" data-aos-duration="1500"></div>
-            <div class="xoom2" style="background-image: url('img/zoom-count-bg3.jpg')" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
+            <div class="xoom2" style="background-image: url('img/zoom-count-bg3.jpg');border: 10px solid grey;" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
             </div>
             <div class="zoom-counter__info zoom-count1-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">
               <div class="zoom-counter__subtitle" style="display: none;">Elixir Pharma</div>
               <div class="zoom-counter__title" style="font-family: Playfair display; font-size: 55px; margin-bottom: 16px; color: #e1e3e5;">CEO Message</div>
               <div class="zoom-counter__text" style="font-family: poppins; line-height: 23px; font-weight: 300; margin-bottom: -13px; color: #e1e3e5c2;">
-                <p>“Every member of this company’s team was handpicked to reflect true professional excellence for the greater good of the patients. By working together with our stakeholders, our goal is simple: to transform the pharmaceutical market in the Middle East for the better, forever, for all of us. There is no better time to start than now.” 
+                <p>“Every member of this company’s team was handpicked to reflect true professional excellence for the greater good of the patients.</br> By working together with our stakeholders, our goal is simple: to transform the pharmaceutical market in the Middle East for the better, forever, for all of us. There is no better time to start than now.” 
                 </p>
               </div>
               <a class="zoom-counter__read-more zoom-counter__read-more_inverted" target="_blank" href="about.html#ceo0" style="font-family: poppins; line-height: 23px; font-weight: 300; padding-bottom: 6px; color: #e1e3e5c2;">Discover</a>
@@ -1074,8 +1125,8 @@
   }
 
   .twitter .border:hover {
-    background: #00aced;
-    border-color: #72c6e6;
+    background: #b80d0d;
+    border-color: #b80d0d;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -1105,8 +1156,8 @@
   }
 
   .instagram .border:hover {
-    background: #517fa4;
-    border-color: #7495af;
+    background: #ff0379;
+    border-color: #ff0379;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -1136,8 +1187,8 @@
   }
 
   .dribbble .border:hover {
-    background: #ea4c89;
-    border-color: #ff78ac;
+    background: #005acf;
+    border-color: #005acf;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -1165,8 +1216,8 @@
           }
     
           .map .border:hover {
-            background: #b80d0d;
-            border-color: #b80d0d;
+            background: #5a5a5a;
+            border-color: #5a5a5a;
             color: rgba(255,255,255, 0.9);
             transform: scale(1.2);
           }
