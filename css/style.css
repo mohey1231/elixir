@@ -2008,6 +2008,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .port-view-more-dark {
   display:block;
+  font-family: 'poppins' !important;
   padding-top:55px;
   padding-bottom:52px;
   background:#4b4e53;
