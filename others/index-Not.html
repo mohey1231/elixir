@@ -277,7 +277,6 @@
               
             </div>
           </div>
-          <div style=" padding: 27%;"></div>
         </div>
       </main>
 
@@ -401,19 +400,6 @@
           }
         }
 
-
-        @media only screen and (min-height: 600px){
-          .main-slide_size_large2{
-            min-height: 160vh;
-          }
-        }
-
-        @media only screen and (min-height: 800px){
-          .main-slide_size_large2{
-            min-height: 120vh;
-          }
-        }
-
        
           
           
@@ -426,7 +412,7 @@
 
 
       <main class="section--">
-        <div class=" main-slide_size_large main-slide_size_large2" >
+        <div class="main-slide main-slide main-slide_size_large" style=" min-height: 100vh !important;">
           <div class="parallax-image main-slide__image">
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
               <div style="text-align: center; padding: 13%; ">
@@ -525,7 +511,7 @@
           display: flex;
           margin-top: -200px;
           position: absolute;
-          margin-left: 7%;
+          margin-left: 70px;
         }
 
 
@@ -547,14 +533,12 @@
           width: 66%;
           /**text-align: justify;**/
           font-family: poppins;
-          
 
         }
 
         .p1-sec-a{
           margin:20px 0 5px 0 ;
           font-size: 17px;
-          padding-top: 22%;
         }
 
         .secy-3{
@@ -633,68 +617,20 @@
 
           }
 
-         @media only screen and (min-width: 901px){
-            .icony{
-              margin-top: -13%;
-            }
-
-          }
-         @media only screen and (max-width: 991px){
-            .icony{
-              margin-top: -18%;
-            }
-
-          }
-
-         @media only screen and (min-width: 1448px){
-            .icony{
-              margin-top: -10%;
-            }
-
-          }
-
-         @media only screen and (max-device-width: 1447px) and (max-device-height: 750px){
-            .icony{
-              margin-top: -11%;
-            }
-
-          }
-
-
-         @media only screen and (max-height: 1111px){
-            .main-slide{
-              /* min-height: 160vh !important; */
-            }
-
-          }
-
-
-        .conty2{
-          margin-bottom: 280px ;
-        }
-
-
-        .x-shape{
-          background-image: url(img/x4.png);
-          background-position: bottom;
-          background-size: 143%;
-          background-repeat: no-repeat;
-        }
-
 
 
 
       </style>
 
       <main class="section--">
-        <div class="x-shape">
+        <div class="">
           <div class="parallax-image single-post__head" style="background-image: url('img/news-single-post-head-image2.jpg'); background-position: center;background-size: cover;">
             <div class="abty0" data-aos="fade-up" data-aos-duration="1500">
               <h1 class="abty">About Elixir</h1>
             </div>
             <div class="parallax-image__image" data-rellax-speed="-3" ></div>
           </div>
-          <div class="container conty2" >
+          <div class="container" style="margin-bottom: 250px;">
             <div class="icony">
               <div class="icony-1" data-aos="fade-up" data-aos-duration="1500">
                 <img src="img/1.png" alt="" style="margin:5px 0 5px 0 ; width: 40%;">
@@ -727,8 +663,8 @@
                 </p>
               </div>
             </div>
-            <!-- <img class="secy-3" src="img/x.png" alt=""> -->
-            <div style="text-align: center;" >
+            <img class="secy-3" src="img/x.png" alt="">
+            <div style="text-align: center; margin: -25%; padding-bottom: 7%;">
               <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e; font-size: 20px !important;" target="_blank" href="about.html#values0">DISCOVER</a>
             </div>
         </div>
@@ -937,14 +873,6 @@
           margin-left: 8px;
         }
 
-        .x1x{
-          background: url(img/back.png);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: auto;
-
-        }
-
 
         @media only screen and (max-width: 1999px){
 
@@ -1001,11 +929,11 @@
 
 
 
-    <main class="section-- x1x">
+    <main class="section--">
       <div class="zxt" style="margin-top: 0px; border-top: 1px solid #c1c1c1; padding-bottom: 6%;">
         <div class="container" style="padding-top: 5%;">
           <div class="zoom-counter__inner zoom-counter__inner25-2 zomy">
-            <!-- <div class="square2" data-aos="fade" data-aos-duration="1500"></div> -->
+            <div class="square2" data-aos="fade" data-aos-duration="1500"></div>
             <div class="xoom2" style="background-image: url('img/zoom-count-bg3.jpg');border: 10px solid grey;" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
             </div>
             <div class="zoom-counter__info zoom-count1-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">
@@ -1525,7 +1453,7 @@
       --->
   </div>
   <img class="mem" src="img/start3.gif" alt="" style="position: absolute; top: 34%; right: 35%; width: 30%; ">
-  <!-- <a href="#" class="back-to-top"></a> -->
+  <a href="#" class="back-to-top"></a>
   <!--JS-->
   <script src="assets/js/polyfill.min.js"></script>
   <script src="assets/js/jquery.min.js"></script>
