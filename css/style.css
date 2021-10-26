@@ -2858,7 +2858,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   letter-spacing: 0px;
   font-size: 12px;
   line-height:15px;
-  text-transform:uppercase;
+  text-transform: none;
 }
 .breadcrumbs {
   margin-top: 53px;
