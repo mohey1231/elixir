@@ -509,6 +509,37 @@
             list-style-type: none;
             margin-left: 5px;
           }
+
+          /** Facebook **/
+    
+          .map {
+            width: 40px;
+            height: 40px;
+          }
+    
+          .map .border {
+            background: transparent;
+            outline: none;
+            color:rgba(255,255,255, 0.3);
+            width: 40px;
+            height: 40px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            border: 2px solid rgba(255,255,255, 0.3);
+            transition: all .2s ease-in-out;
+          }
+    
+          .map .border:hover {
+            background: #5a5a5a;
+            border-color: #5a5a5a;
+            color: rgba(255,255,255, 0.9);
+            transform: scale(1.2);
+          }
+    
+          .fa.fa-facebook {
+            font-size: 15px;
+          }
     
           /** Facebook **/
     
@@ -562,12 +593,12 @@
           }
     
           .twitter .border:hover {
-            background: #00aced;
-            border-color: #72c6e6;
+            background: #b80d0d;
+            border-color: #b80d0d;
             color: rgba(255,255,255, 0.9);
             transform: scale(1.2);
           }
-    
+            
           .fa.fa-twitter {
             font-size: 15px;
           }
@@ -593,8 +624,8 @@
           }
     
           .instagram .border:hover {
-            background: #517fa4;
-            border-color: #7495af;
+            background: #ff0379;
+            border-color: #ff0379;
             color: rgba(255,255,255, 0.9);
             transform: scale(1.2);
           }
@@ -624,8 +655,8 @@
           }
     
           .dribbble .border:hover {
-            background: #ea4c89;
-            border-color: #ff78ac;
+            background: #005acf;
+            border-color: #005acf;
             color: rgba(255,255,255, 0.9);
             transform: scale(1.2);
           }
@@ -633,39 +664,7 @@
           .fa.fa-dribbble {
             font-size: 15px;
           }
-
-          /** map **/
-
-          .map {
-            width: 40px;
-            height: 40px;
-          }
     
-          .map .border {
-            background: transparent;
-            outline: none;
-            color:rgba(255,255,255, 0.3);
-            width: 40px;
-            height: 40px;
-            -webkit-border-radius: 100px;
-            -moz-border-radius: 100px;
-            border-radius: 100px;
-            border: 2px solid rgba(255,255,255, 0.3);
-            transition: all .2s ease-in-out;
-          }
-    
-          .map .border:hover {
-            background: #b80d0d;
-            border-color: #b80d0d;
-            color: rgba(255,255,255, 0.9);
-            transform: scale(1.2);
-          }
-    
-          .fa.fa-facebook {
-            font-size: 15px;
-          }
-          
-          
           #social ul li {
             transition: ease .3s;
           }
@@ -731,9 +730,10 @@
                   <div class="f1">
                     <h1 style="font-size: 2rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
                     <li id="lin" style="list-style: none;"> <a target="_top" href="https://g.page/Elixir-Pharma-eg?share" style="color: #ffffff;"> <i class="fa fa-map-marker"></i> &nbsp; Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</a></li>
-                    <li id="lin2">Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
-                    <li id="lin2">Office Number: (+2)02 22675776</li>
-                    <li id="lin2">Mobile Number: (+20) 110 211 6791</li>
+                    <li id="lin2" style="list-style: none;"><i class="fa fa-phone"></i> &nbsp; Head Office Number: (+2)02 22675776</li>
+                    <li id="lin2" style="list-style: none;"><i class="fa fa-map-marker"></i> &nbsp; Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
+                    <li id="lin2" style="list-style: none;"><i class="fa fa-phone"></i> &nbsp; Delta Office Number: (+2)04 03577410</li>
+                    <li id="lin2" style="list-style: none;"><i class="fa fa-mobile"></i> &nbsp;&nbsp;&nbsp;Mobile Number: (+20) 110 211 6791</li>
                   </div>
               </div>
               <div class="f0">
@@ -794,7 +794,7 @@
 		</div><!-- End wrap -->	
 			
 <!-- JS begin -->
-
+<script src="../js/scrooth.js"></script>
 		<!-- jQuery  -->
 		<script src="../js/jquery-1.11.2.min.js"></script>
 
