@@ -1097,6 +1097,14 @@ support for no js
     right:50%;
   } 
 }
+
+
+@media only screen and (max-width: 767px) {
+  .fes2-img{
+    background-size: 160% !important;
+  }
+}
+
 .fes2-main-text-cont {
   margin: 0 auto;
   padding: 145px 0px 140px 50px;

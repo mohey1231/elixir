@@ -211,7 +211,7 @@
               <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg6.jpg')"></div>
             </div>
             <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg5.png" />
-            <div class="zoom-image-head__content container" style="    color: white;">
+            <div class="zoom-image-head__content container" style="    color: rgb(0, 0, 0);">
               <div class="zoom-image-head__subtitle">Elixir Pharma</div>
               <div class="zoom-image-head__title bigz">Enhancing
                 <br/>
@@ -275,7 +275,7 @@
              <!-- <iframe data-aos="fade-up" width="1420" height="545" src="img/video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 12% 9% 9% 9%; width: 85%; border: 20px solid #e1e3e5;"></iframe>
               -->
               <div style="padding-top: 130px;"></div>
-              <video id="elixir_video" width="1000" controls="controls" preload="metadata"  style="display: block; margin: auto; width: 70%;" >
+              <video id="elixir_video" width="1000" controls="controls" muted preload="metadata"  style="display: block; margin: auto; width: 70%;" >
                 <source src="img/video.mp4?autoplay=1" type="video/mp4">
               </video>
               
@@ -288,7 +288,6 @@
 
      
 
-<!--
       <script>
         (function($) {
 
@@ -349,7 +348,7 @@
         
       </style>
 
-      -->
+
 
 
     <!-- "Üneeded"
@@ -380,16 +379,16 @@
 
       <style>
         .small-1{
-          font-size: 100px; font-family: Playfair display; letter-spacing: -5px; color: #2b3b4e;
+          font-size: 100px; font-family: Playfair display; letter-spacing: -5px; color: #2b3b4e; margin-top: 38px; margin-bottom: 35px;
 
         }
 
         .small-2{
-          font-size: 16px; font-family: poppins; line-height: 30px; color: #2b3b4e; text-align: justify;
+          font-size: 18px; font-family: poppins; line-height: 30px; color: #2b3b4e; text-align: justify;
         }
 
         .small-3{
-          font-size: 24px; font-family: poppins; color: #2b3b4e; font-weight: 300;
+          font-size: 24px; font-family: poppins; color: #2b3b4e; font-weight: 300; margin-top: 20px;
         }
 
         @media only screen and (max-width: 800px){
@@ -435,7 +434,7 @@
           <div class="parallax-image main-slide__image">
             <div class="parallax-image__image" data-rellax-percentage="0.5" data-rellax-speed="-3" style="background-image: url('img/home-slide-2.jpg')">
               <div style="text-align: center; padding: 13%; ">
-                <h1 class="small-1" data-aos="fade-up">Who are we ?</h1>
+                <h1 class="small-1"  data-aos="fade-up">Who are we ?</h1>
                 <p class="small-2" data-aos="fade-up"  >The word ‘Elixir’ has Latin, Greek, and Arabic origins and is defined as “a potion with magical powers.” </br></br> The same description applies to modern-day medicine, as its capabilities continue to grow and introduce life-changing improvements to patients’ lives.</br></br> 
 
                   Elixir Pharma is an emerging shareholding pharmaceutical company that specializes in the provision of varied commercial and scarce medication.</br></br> Founded in 2018, we have rapidly grown by innovatively creating a diversified portfolio of products on the back of the ambition and drive of our highly qualified team.</br></br>
@@ -552,6 +551,8 @@
           width: 66%;
           /**text-align: justify;**/
           font-family: poppins;
+          font-size: 16px;
+          line-height: 24px;
           
 
         }
@@ -563,9 +564,11 @@
         }
 
         .secy-3{
-          width: 30%;
+          width: 57%;
           margin: 9% 87% 0;
           padding: 1px 2px 120px 2px;
+          position: absolute;
+
         }
 
         .abty0{
@@ -576,7 +579,7 @@
           display: inline-block;
           text-align: center;
           margin-top: 137px;
-          font-size: 20px;
+          font-size: 30px;
           font-family: 'Playfair Display';
           font-weight: 700;
           color: white;
@@ -624,6 +627,21 @@
           
         }
 
+        @media only screen and (min-width: 900px){
+            .secy-3{
+              display: none;
+            }
+
+         }
+         
+        @media only screen and (max-width: 900px){
+            .x-shape{
+            background-image: none !important;
+
+          }
+
+         }
+
         @media only screen and (max-width: 600px){
             .secy-3{
               margin: 20% 61% 0;
@@ -633,7 +651,7 @@
         
          @media only screen and (max-width: 991px){
             .secy-3{
-              margin: 42% 70% 0;
+              margin: -20% 37% 0;
             }
 
           }
@@ -732,7 +750,7 @@
                 </p>
               </div>
             </div>
-            <!-- <img class="secy-3" src="img/x.png" alt=""> -->
+            <img class="secy-3" src="img/x.png" alt="">
             <div style="text-align: center;" >
               <a class="small-3 zoom-counter__read-more zoom-counter__read-more_inverted p1-sec-a" style="color: #2b3b4e; font-size: 20px !important;" target="_blank" href="about.html#values0">DISCOVER</a>
             </div>
@@ -1133,7 +1151,7 @@
     }
 
     #social{
-      padding-bottom: 100px;
+      padding-bottom: 18px;
     }
 
   }
@@ -1210,11 +1228,11 @@
   }
 
   .twitter .border:hover {
-    background: #b80d0d;
-    border-color: #b80d0d;
-    color: rgba(255,255,255, 0.9);
-    transform: scale(1.2);
-  }
+background: #b80d0d;
+border-color: #b80d0d;
+color: rgba(255,255,255, 0.9);
+transform: scale(1.2);
+}
 
   .fa.fa-twitter {
     font-size: 15px;
@@ -1241,12 +1259,12 @@
   }
 
   .instagram .border:hover {
-    background: #ff0379;
+    background: linear-gradient(203deg, rgba(178,61,201,1) 5%, rgba(238,50,120,1) 48%, rgba(243,133,89,1) 82%);
     border-color: #ff0379;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
-
+    
   .fa.fa-instagram {
     font-size: 15px;
   }
@@ -1283,33 +1301,33 @@
   }
 
   .map {
-            width: 40px;
-            height: 40px;
-          }
-    
-          .map .border {
-            background: transparent;
-            outline: none;
-            color:rgba(255,255,255, 0.3);
-            width: 40px;
-            height: 40px;
-            -webkit-border-radius: 100px;
-            -moz-border-radius: 100px;
-            border-radius: 100px;
-            border: 2px solid rgba(255,255,255, 0.3);
-            transition: all .2s ease-in-out;
-          }
-    
-          .map .border:hover {
-            background: #5a5a5a;
-            border-color: #5a5a5a;
-            color: rgba(255,255,255, 0.9);
-            transform: scale(1.2);
-          }
-    
-          .fa.fa-facebook {
-            font-size: 15px;
-          }
+        width: 40px;
+        height: 40px;
+      }
+
+      .map .border {
+        background: transparent;
+        outline: none;
+        color:rgba(255,255,255, 0.3);
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        border: 2px solid rgba(255,255,255, 0.3);
+        transition: all .2s ease-in-out;
+      }
+
+      .map .border:hover {
+        background: #ffffff;
+        border-color: #ffffff;
+        color: rgba(255,255,255, 0.9);
+        transform: scale(1.2);
+      }
+
+      .fa.fa-facebook {
+        font-size: 15px;
+      }
 
   #social ul li {
     transition: ease .3s;
@@ -1341,6 +1359,20 @@
     opacity: .5;
   }
 
+  .border a:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  .greyz{
+    transition-duration: .2s;
+  }
+
+  .greyz:hover{
+    opacity: 0;
+  }
+
+
+
   
 
 </style>
@@ -1362,42 +1394,51 @@
     <div>
       <div class="f0" style="color: white; ">
           <div class="f1" style="color: white;" >
-              <h1 style="font-size: 1.3rem; color: white;margin: 40px 0 8px 0; font-weight: 500; font-family: 'Poppins';">ABOUT US</h1>
-              <li><a id="lin"  href="about.html#culture0" target="_blank"> OUR CULTURE </a></li>
-              <li><a id="lin"  href="about.html#values0" target="_blank">OUR VALUES</a></li>
-              <li><a id="lin"  href="about.html#vision0" target="_blank">OUR VISION</a></li>
-              <li><a id="lin"  href="about.html#vision0" target="_blank">OUR MISSION</a></li>
+              <h1 style="font-size: 18px; color: white;margin: 40px 0 25px 0; font-weight: 500; font-family: 'Poppins';">ABOUT US</h1>
+              <li> <a id="lin"  href="#culture0" target="_blank"> OUR CULTURE </a></li>
+              <li><a id="lin"  href="#values0" target="_blank">OUR VALUES</a></li>
+              <li><a id="lin"  href="#vision0" target="_blank">OUR VISION</a></li>
+              <li><a id="lin"  href="#vision0" target="_blank">OUR MISSION</a></li>
           </div>
           <div class="f1">
-              <h1 style="font-size: 1.3rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">OUR PORTFOLIO</h1>
+              <h1 style="font-size: 18px;color: white;margin: 40px 0 25px 0;font-weight: 500; font-family: 'Poppins';">OUR PORTFOLIO</h1>
               <li><a id="lin"  href="main-our-philosophy.html" target="_blank">OUR PHILOSOPHY OF SERVICE</a></li>
               <li><a id="lin"  href="main-portfolio.html" target="_blank">OUR THERAPEUTIC LINES</a></li>
           </div>
           <div class="f1">
-              <h1 style="font-size: 1.3rem;color: white;margin: 40px 0 8px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
-              <li id="lin" style="list-style: none;">
-                <a target="_blank" href="https://g.page/Elixir-Pharma-eg?share" style="color: #ffffff; display: contents;">
-                  <i class="fa fa-map-marker"></i> &nbsp; Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt
-                </a>
-              </li>
+              <h1 style="font-size: 18px;color: white;margin: 40px 0 25px 0;font-weight: 500; font-family: 'Poppins';">CONTACT US</h1>
+              <li id="lin" style="list-style: none;"><a target="_blank" href="https://g.page/Elixir-Pharma-eg?share" style="color: #ffffff;"> <i class="fa fa-map-marker"></i> &nbsp; Headquarter Office: 21, Ebad Al Rahman Mosque St, Sheraton Buildings, Heliopolis, Cairo, Egypt</a></li>
               <li id="lin2" style="list-style: none;"><i class="fa fa-phone"></i> &nbsp; Head Office Number: (+2)02 22675776</li>
-              <li id="lin2" style="list-style: none;"><i class="fa fa-map-marker"></i> &nbsp; Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</li>
+              <li id="lin" style="list-style: none;"><a target="_blank" href="https://goo.gl/maps/jfummijqwKhqHqed6" style="color: #ffffff;"> <i class="fa fa-map-marker"></i> &nbsp; Delta Office: Stadium District, Street 10, Next To Ibn Sina Hospital, Tanta, Egypt</a></li>
               <li id="lin2" style="list-style: none;"><i class="fa fa-phone"></i> &nbsp; Delta Office Number: (+2)04 03577410</li>
               <li id="lin2" style="list-style: none;"><i class="fa fa-mobile"></i> &nbsp;&nbsp;&nbsp;Mobile Number: (+20) 110 211 6791</li>
           </div>
       </div>
       <div class="f0">
           <div class="f2">
-              <h1 style="font-size: 17px;margin: -3px 0 32px 0; color: white;">© 2021 ELIXIR ALL RIGHTS RESERVED.</h1>
+              <h1 style="font-size: 17px;margin: -3px 0 32px 0; color: white;font-family: 'Playfair Display'; font-weight: normal;">© 2021 ELIXIR ALL RIGHTS RESERVED.</h1>
           </div>
           <div class="f2">
               <div class="center2">
                 <div id="social">
                   <ul>
 
+
                     <li class="map">
-                      <button class="border"><a href="https://g.page/Elixir-Pharma-eg?share" target="_blank"><i class="fa fa-map-marker"></i></a></button>
+                      <button class="border">
+                        <a href="https://g.page/Elixir-Pharma-eg?share" target="_blank" style="margin-right: 12px;">
+
+                          <i class="greyz2" style="position: absolute;">
+                            <svg style="width: 12px;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.73 209.12"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#1a73e8;}.cls-3{fill:#ea4335;}.cls-4{fill:#4285f4;}.cls-5{fill:#fbbc04;}.cls-6{fill:#34a853;}</style></defs><path class="cls-1" d="M232.82-294.92c-.36-.84-.74-1.66-1.14-2.48a70.05,70.05,0,0,0-40.63-35.88c-.8-.27-1.61-.53-2.43-.76a69.47,69.47,0,0,0-19.89-2.88,69.71,69.71,0,0,0-52.8,24.11l-.09.1a69.67,69.67,0,0,0-17,45.66c0,14.07,2.39,25.13,6.2,34.29q.21.52.45,1c8.24,19,22.63,29.71,34.16,42.54.59.65,1.17,1.31,1.73,2a64.57,64.57,0,0,1,12.38,20.35c2.85,7.9,5.54,20.18,7.82,32.82,1.48,8.19,13.18,8.36,14.85.2,2.66-13,5.91-25.59,9.57-33.56C201.6-201.23,238.6-217.45,238.6-267A69.6,69.6,0,0,0,232.82-294.92Zm-88.37,14.11a26.76,26.76,0,0,1,3.14-4.84l.09-.11a26.58,26.58,0,0,1,4.3-4.18,23.53,23.53,0,0,1,2.17-1.53,27,27,0,0,1,14.58-4.24A27.27,27.27,0,0,1,196-268.45a27,27,0,0,1-5.68,16.64,27.2,27.2,0,0,1-21.58,10.61,27.25,27.25,0,0,1-27.25-27.25,27.2,27.2,0,0,1,1.53-9A24.72,24.72,0,0,1,144.45-280.81Z" transform="translate(-98.87 336.92)"/><path class="cls-2" d="M191.05-333.28l-36.9,41.81-6.91,5.34-.09.1-.33-.28-1.23-1.06-29.75-25.34.09-.1a69.71,69.71,0,0,1,52.8-24.11A69.47,69.47,0,0,1,188.62-334C189.44-333.81,190.25-333.55,191.05-333.28Z" transform="translate(-98.87 336.92)"/><polygon class="cls-2" points="51.22 48.59 48.81 51.16 46.72 49.56 50.05 43.8 51.22 48.59"/><path class="cls-3" d="M147.68-285.76l-.08.1L143-277.47l-37.49,45.76q-.24-.53-.45-1c-3.81-9.16-6.2-20.22-6.2-34.29a69.67,69.67,0,0,1,17-45.66l.09-.1,31.75,27.05-.77-.65.33.28Z" transform="translate(-98.87 336.92)"/><path class="cls-4" d="M152-289.94,188.62-334c.82.23,1.63.49,2.43.76a70.05,70.05,0,0,1,40.63,35.88c.4.82.78,1.64,1.14,2.48l-39.9,45.18-1-.83-1.56-1.24A27,27,0,0,0,196-268.45a27.27,27.27,0,0,0-27.26-27.26,27,27,0,0,0-14.58,4.24" transform="translate(-98.87 336.92)"/><path class="cls-5" d="M143-277.47a27.2,27.2,0,0,0-1.53,9,27.25,27.25,0,0,0,27.25,27.25,27.2,27.2,0,0,0,21.58-10.61l1.56,1.24,1,.83L141.41-187.2c-.56-.66-1.14-1.32-1.73-2-11.53-12.83-25.92-23.55-34.16-42.54q-.24-.53-.45-1" transform="translate(-98.87 336.92)"/><path class="cls-6" d="M238.6-267c0,49.6-37,65.82-52.57,99.66-3.66,8-6.91,20.59-9.57,33.56-1.67,8.16-13.37,8-14.85-.2-2.28-12.64-5-24.92-7.82-32.82a64.57,64.57,0,0,0-12.38-20.35c-.56-.66-1.14-1.32-1.73-2l50.63-62.64,41.37-45.59c.4.82.78,1.64,1.14,2.48A69.6,69.6,0,0,1,238.6-267Z" transform="translate(-98.87 336.92)"/></svg>
+                          </i>
+
+                          <i class="greyz" style="position: absolute;">
+                            <svg style="width: 12px;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.73 209.12"><defs><style>.cls-1{fill:#656363;}</style></defs><path class="cls-1" d="M108.48-233.95c-.35-.84-.73-1.66-1.14-2.48a70.05,70.05,0,0,0-40.63-35.88c-.8-.27-1.61-.53-2.43-.76a69.45,69.45,0,0,0-19.88-2.88A69.73,69.73,0,0,0-8.41-251.84a.87.87,0,0,1-.08.1,69.67,69.67,0,0,0-17,45.66c0,14.07,2.39,25.13,6.2,34.29.15.35.29.7.46,1,8.23,19,22.63,29.71,34.15,42.54.6.65,1.18,1.31,1.74,2a64.75,64.75,0,0,1,12.38,20.35C32.3-98,35-85.7,37.27-73.06c1.49,8.19,13.19,8.36,14.86.2,2.65-13,5.9-25.59,9.57-33.56,15.57-33.84,52.57-50.06,52.57-99.66A69.43,69.43,0,0,0,108.48-233.95ZM20.11-219.84a26.28,26.28,0,0,1,3.15-4.84,1,1,0,0,0,.08-.11A26.24,26.24,0,0,1,27.65-229a23.53,23.53,0,0,1,2.17-1.53,27,27,0,0,1,14.58-4.24,27.26,27.26,0,0,1,27.25,27.26A27,27,0,0,1,66-190.84,27.17,27.17,0,0,1,44.4-180.23a27.24,27.24,0,0,1-27.25-27.25,27.45,27.45,0,0,1,1.52-9A26.06,26.06,0,0,1,20.11-219.84Z" transform="translate(25.47 275.95)"/></svg>
+                          </i>
+                        </a>
+                      </button>
                     </li>
+
 
 
                     <li class="facebook">
