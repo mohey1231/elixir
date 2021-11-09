@@ -10641,7 +10641,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 	font-size: 15.5px;
 	line-height: 25px;
   font-weight: 300;
-  text-align: justify;
+  /**text-align: justify;**/
 }
 .color-dark{
   color:#404347;
