@@ -4248,6 +4248,23 @@ logo
   transition: all 0.3s;
 }
 
+
+.contacy{
+  display: inline;
+  padding-right:5px;
+  font-family: 'Poppins';
+}
+
+@media only screen and (max-width: 380px){
+  .contacy {
+    display: block;
+
+  }
+
+}
+
+
+
 /*
 main-slide
 */
