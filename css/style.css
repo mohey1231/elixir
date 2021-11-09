@@ -166,6 +166,35 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 
+.joby{
+  text-align: center;
+  padding: 10%;
+  border: 1px solid rgb(211, 211, 211);
+  transition-duration: .3s;
+}
+
+.joby-tex{
+  font-family: 'Poppins';
+  font-size: 21px;
+}
+
+
+.joby:hover{
+  opacity: .5;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.joby2{
+  transition-duration: .3s;
+}
+
+.joby2:hover{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+
+
 #loader-overflow{
   display:block;
   width: 100%;
@@ -6231,7 +6260,7 @@ a:hover, a:focus {
 
 .pb-0 {	padding-bottom:0px !important;}
 .pb-10 {padding-bottom:10px !important;}
-.pb-20 {padding-bottom:20px}
+.pb-20 {padding-bottom:60px}
 .pb-30 {padding-bottom:30px !important;}
 .pb-40 {padding-bottom:40px;}
 .pb-45 {padding-bottom:45px;}
