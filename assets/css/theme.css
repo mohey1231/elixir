@@ -1820,6 +1820,19 @@ features-block
 footer-default
 */
 
+.back-foot{
+  background: url(../../img/footer.jpg) !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+@media only screen and (max-width: 450px){
+  .back-foot{
+    background-position: 90% !important;
+  }
+
+}
+
 .footer-default {
   /*padding-top: 162px;*/
   padding-bottom: 70px;
@@ -4262,6 +4275,7 @@ logo
   }
 
 }
+
 
 
 
