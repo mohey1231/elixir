@@ -105,6 +105,22 @@ zoom-slider
 optimize styles
 */
 
+
+.logy{
+  transition-duration: .3s;
+  margin-top: -16px;
+}
+
+.logy:hover{
+  opacity: .5;
+}
+
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
