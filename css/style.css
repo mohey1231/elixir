@@ -6465,6 +6465,20 @@ a:hover, a:focus {
 
 /* #BACK TO TOP BUTTON
 ================================================== */
+.back-foot{
+  background: url(../img/footer.jpg) !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+@media only screen and (max-width: 450px){
+  .back-foot{
+    background-position: 90% !important;
+  }
+
+}
+
+
 #back-top {
 	position: fixed;
 	bottom: 16px;
@@ -10639,7 +10653,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 	margin-top:30px;
   font-family: 'Poppins';
 	font-size: 15.5px;
-	line-height: 25px;
+	line-height: 23px;
   font-weight: 300;
   /**text-align: justify;**/
 }

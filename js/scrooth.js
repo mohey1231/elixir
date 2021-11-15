@@ -42,7 +42,7 @@ class Scrooth {
 
 const scroll = new Scrooth({
   element: window,
-  strength: 40,
-  acceleration: 15,
-  deceleration: 0.89,
+  strength: 20,
+  acceleration: 30,
+  deceleration: 0.91,
 });
